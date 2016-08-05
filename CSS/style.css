@@ -8,13 +8,15 @@
   margin-bottom: 0;
   box-shadow: 0px 1px 2px 0px rgba(114, 114, 116, 0.69); }
 
-#navbar > img {
-  width: 200px;
-  float: left; }
+#navbar img {
+  width: 200px; }
 
-#navbar > ul {
-  float: right;
-  padding-top: 0.7rem; }
+#navbar .navbar-brand {
+  height: auto;
+  padding: 0; }
+
+nav .navbar-nav > li {
+  padding-top: 1rem; }
 
 nav .navbar-nav > li > a {
   padding: 0; }
@@ -125,11 +127,58 @@ header > a {
 header form {
   margin-bottom: 8rem; }
 
-#submitForm {
-  margin-top: 0.4rem; }
+header form .input div {
+  padding: 0;
+  padding-left: 7px; }
 
-#btn-reviews > img {
-  width: 6rem; }
+header form .input div:first-child {
+  padding-left: 0;
+  padding-right: 7px; }
+
+header form input {
+  width: 100%; }
+
+#submitForm {
+  margin-top: 0.7rem; }
+
+header .row-form {
+  position: relative; }
+
+header .row-form .btn-reviews {
+  position: absolute;
+  bottom: 8rem;
+  right: 0; }
+
+header .row-form .btn-reviews img {
+  width: 14rem; }
+
+/* Carousel Bootstrap */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+#textCarroussel .carousel {
+  height: 450px;
+  background: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%); }
+
+/* Since positioning the image, we need to help out the caption */
+#textCarroussel .carousel-caption {
+  z-index: 10;
+  bottom: 120px; }
+
+/* Declare heights because of positioning of img element */
+#textCarroussel .carousel .item {
+  height: 450px;
+  background: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%); }
+
+.carousel-control.left, .carousel-control.right {
+  background: none; }
+
+.carousel-control img {
+  position: absolute;
+  top: 45%; }
+
+.carousel-control:hover {
+  background: none; }
 
 /* Title */
 .bigTitle {
@@ -211,7 +260,7 @@ header form {
   color: #FFFFFF; }
 
 .text-area {
-  height: 5.5rem;
+  height: 11rem;
   padding-top: 0.7rem; }
 
 /* Avenir Next */
