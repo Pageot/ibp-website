@@ -1,0 +1,383 @@
+/* Colors */
+/* Navbar */
+#navbar {
+  padding-top: 1rem;
+  padding-bottom: 4.25rem;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0px rgba(114, 114, 116, 0.69); }
+
+#navbar > img {
+  width: 200px;
+  float: left;
+  margin-left: 4rem; }
+
+#navbar > ul {
+  float: right;
+  padding-top: 0.7rem; }
+
+.listNavbar > a {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  color: #939393;
+  padding-right: 3.5rem; }
+  .listNavbar > a:hover {
+    color: #cf1e34; }
+
+#nav-tel {
+  color: #939393;
+  font-family: "AvenirNextMedium", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem; }
+
+/* Header */
+header {
+  background-image: url(../images/bg.jpg);
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+header > h2 {
+  margin-left: 4rem;
+  margin-bottom: 0.7rem; }
+
+#subtitle-header {
+  margin-bottom: 2rem; }
+
+header > div {
+  margin-left: 4rem; }
+
+.divider {
+  width: 400px;
+  height: 1px;
+  background-color: #979797;
+  margin-bottom: 2.7rem; }
+
+header > h2 {
+  font-family: "AvenirNextLight", Helvetica, sans-serif;
+  font-size: 17px;
+  color: #efefea; }
+
+header > h2 > strong {
+  font-family: "AvenirNextDemiBold", Helvetica, sans-serif; }
+
+header > a {
+  padding: 0.5rem 0rem 0rem 4rem; }
+
+#submitForm {
+  margin-top: 0.4rem;
+  margin-bottom: 8rem; }
+
+form.col-md-6 {
+  padding-left: 4em; }
+
+#btn-reviews {
+  float: right;
+  margin-right: 6rem; }
+
+#btn-reviews > img {
+  width: 6rem; }
+
+/* Title */
+.bigTitle {
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  letter-spacing: 7px;
+  line-height: 46px; }
+
+.mediumTitle {
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  letter-spacing: 7px; }
+
+.smallTitle {
+  font-family: "ProximaNovaRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #2C2E31; }
+
+/* components */
+.list-inline > li {
+  display: inline-block;
+  text-decoration: none; }
+
+.align-center {
+  text-align: center; }
+
+/* Btn */
+.btn-radiusRed {
+  border-radius: 50px;
+  background-color: #cf1e34;
+  padding: 0.5rem 1rem 0.6rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px; }
+  .btn-radiusRed:hover {
+    background-color: #eb4e4e; }
+
+.btn-radiusEmerald {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #00c595;
+  padding: 0.7rem 1.5rem 0.8rem 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px; }
+  .btn-radiusEmerald:hover {
+    background-color: #0fb48c; }
+
+/* form */
+.form {
+  width: 15rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #999999;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  font-family: "AvenirNextLight", Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-top: 0.5rem;
+  color: #FFFFFF; }
+
+::-webkit-input-placeholder {
+  color: #FFFFFF; }
+
+::-moz-placeholder {
+  color: #FFFFFF; }
+
+:-ms-input-placeholder {
+  color: #FFFFFF; }
+
+:-moz-placeholder {
+  color: #FFFFFF; }
+
+.text-area {
+  width: 30.3rem;
+  height: 5.5rem;
+  padding-top: 0.7rem; }
+
+/* Avenir Next */
+@font-face {
+  font-family: 'AvenirNextLight';
+  src: url("../fonts/AvenirNextLTPro-Light.otf");
+  font-weight: 200; }
+@font-face {
+  font-family: 'AvenirNextRegular';
+  src: url("../fonts/AvenirNext-Regular.otf");
+  font-weight: 300; }
+@font-face {
+  font-family: 'AvenirNextMedium';
+  src: url("../fonts/AvenirNext-Medium.eot"), url("../fonts/AvenirNextMedium.woff2"), url("../fonts/AvenirNext-Medium.woff"), url("../fonts/AvenirNext-Medium.otf"), url("../fonts/AvenirNext-Medium.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'AvenirNextDemiBold';
+  src: url("../fonts/AvenirNext-DemiBold.otf");
+  font-weight: 500; }
+/* Proxima nova */
+@font-face {
+  font-family: 'ProximaNovaThin';
+  src: url("../fonts/ProximaNovaT-Thin.otf");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url("../fonts/ProximaNova-Light.otf");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url("../fonts/ProximaNova-Regular.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNovaSemiBold';
+  src: url("../fonts/ProximaNova-Semibold.otf");
+  font-weight: 400;
+  font-style: normal; }
+/* ACaslonPro */
+@font-face {
+  font-family: 'Caslon';
+  src: url("../fonts/ACaslonPro-Regular.otf");
+  font-weight: 400;
+  font-style: normal; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  outline: 0;
+  appearance: none; }
+
+a {
+  text-decoration: none; }
+
+/* I NEED A BUSINESS PLAN SERVICE FOR MY VISA */
+/* Title */
+#products > div > h2 {
+  color: #6E7982;
+  padding-top: 5rem;
+  padding-bottom: 1rem; }
+
+#underlineProduct {
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(-90deg, #EEEEEE 80%, #00C595 100%);
+  margin-bottom: 3rem; }
+
+/* Products */
+.product {
+  display: inline-block;
+  padding: 0rem 1.4rem 0rem 1rem !important;
+  margin-right: 2rem; }
+
+#E2 > h2 {
+  color: #3387FB; }
+
+#L1 > h2 {
+  color: #4dce46; }
+
+#EB5 > h2 {
+  color: #2eca9c; }
+
+.product > h2 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 48px;
+  padding-top: 1.5rem; }
+
+.product > h3 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 22px;
+  color: #939393;
+  padding-top: 1.5rem;
+  padding-bottom: 0.3rem;
+  line-height: 30px; }
+
+.product > p {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 15px;
+  color: #7B7C7E;
+  line-height: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 6rem; }
+
+.productDivider {
+  width: 100%;
+  height: 1px;
+  background: #C2C2C2; }
+
+/* Call to Action Bottom */
+#cta-E2 {
+  background: linear-gradient(-90deg, #3387FB 0%, #4794FD 100%);
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+#cta-L1 {
+  background: linear-gradient(-90deg, #4DCE46 0%, #78D858 100%);
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+#cta-EB5 {
+  background: linear-gradient(-90deg, #2ECA9C 0%, #20C4C6 100%);
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+/* CtA Others Visas */
+#othersVisas {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 22px;
+  color: #939393;
+  text-decoration: underline;
+  border-bottom: 1px solid #939393;
+  display: inline-block;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+  #othersVisas:hover {
+    color: #7B7C7E;
+    border-color: #7B7C7E; }
+
+/* Hover product */
+#E2 {
+  position: relative; }
+
+#L1 {
+  position: relative; }
+
+#EB5 {
+  position: relative; }
+
+#E2:hover #cta-E2 {
+  height: 30px; }
+
+#L1:hover #cta-L1 {
+  height: 30px; }
+
+#EB5:hover #cta-EB5 {
+  height: 30px; }
+
+/*# sourceMappingURL=style.css.map */

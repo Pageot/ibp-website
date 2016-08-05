@@ -1,0 +1,31 @@
+/* Colors */
+
+$darkRed: #cf1e34;
+$red: #eb4e4e;
+$emerald: #00c595;
+$colorE2: #3387FB;
+$colorL1: #4dce46;
+$colorEB5: #2eca9c;
+$black: #2c2e31;
+$darkGray: #444444;
+$gray: #939393;
+$grayBg: #f8f9fb;
+$gradianE2: linear-gradient(-90deg, #3387FB 0%, #4794FD 100%);
+$gradianE2Dark: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+$gradianL1: linear-gradient(-90deg, #4DCE46 0%, #78D858 100%);
+$gradianL1Dark: linear-gradient(-90deg, #23921D 0%, #29B122 100%);
+$gradianEB5: linear-gradient(-90deg, #2ECA9C 0%, #20C4C6 100%);
+$gradianEB5Dark: linear-gradient(-90deg, #1D9571 0%, #22B288 100%);
+$gradianGray: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%);
+$blackFooter: #46474C;
+$darkBlackFooter: #3E3F44;
+
+
+
+@import "_header.scss";
+@import "_animations.scss";
+@import "_components.scss";
+@import "_fonts.scss";
+@import "_footer.scss";
+@import "_reset.scss";
+@import "_page.scss";

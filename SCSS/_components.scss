@@ -1,0 +1,102 @@
+/* Title */
+
+.bigTitle {
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  letter-spacing: 7px;
+  line-height: 46px;
+}
+
+.mediumTitle {
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  letter-spacing: 7px;
+}
+
+.smallTitle {
+  font-family: "ProximaNovaRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #2C2E31;
+}
+
+
+/* components */
+
+.list-inline>li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* Btn */
+
+.btn-radiusRed {
+  border-radius: 50px;
+  background-color: $darkRed;
+  padding: 0.5rem 1rem 0.6rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  &:hover {
+    background-color: $red;
+  }
+}
+
+.btn-radiusEmerald {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: $emerald;
+  padding: 0.7rem 1.5rem 0.8rem 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-family: "AvenirNextRegular", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  &:hover {
+    background-color: #0fb48c;
+  }
+}
+
+/* form */
+
+.form {
+  width: 15rem;
+  height: 3rem;
+  background: rgba(255,255,255,0.30);
+  border: 1px solid #999999;
+  box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.40);
+  border-radius: 8px;
+  font-family: "AvenirNextLight", Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-top: 0.5rem;
+  color: #FFFFFF;
+}
+
+::-webkit-input-placeholder {
+  
+  color: #FFFFFF;
+}
+::-moz-placeholder {
+  color: #FFFFFF;
+}
+:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+.text-area {
+  width: 30.3rem;
+  height: 5.5rem;
+  padding-top: 0.7rem;
+}
