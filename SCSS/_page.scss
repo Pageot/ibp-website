@@ -225,3 +225,120 @@
   -webkit-transform: translate(70px, 0px); /* Safari */
   transform: translate(70px, 0px);
 }
+
+
+#getAnswer {
+  background-color: #6e7982;
+  background-image: url('../images/pointInt.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 18% 0;
+}
+
+#getAnswer .left, #getAnswer .right {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+#getAnswer .left {
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#getAnswer .left h2 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 37px;
+  color: #FFFFFF  ;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+#getAnswer .left p {
+  font-family: "AvenirNextMedium", Helvetica, sans-serif;
+  font-size: 15px;
+  color: #F7F7F7;
+  line-height: 24px;
+}
+
+#getAnswer .left p a {
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+#getAnswer .right .button-cont {
+  list-style: none;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+#getAnswer .right .button-cont li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 25px;
+}
+
+#getAnswer .right .button-cont .button {
+  padding: 7px 20px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: "AvenirNextMedium", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #FFFFFF  ;
+  background-color: #59636B;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+}
+
+#getAnswer .right .button-cont .button:hover {
+  background: #434E58;
+  border: 1px solid #fefcfd;
+  text-decoration: none;
+}
+
+#getAnswer .right .bulle {
+  background-image: url('../images/rect-gradrian-border.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px 60px;
+}
+
+#getAnswer .right .bulle h3 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 19px;
+  color: #058FFF;
+  margin-top: 0;
+}
+
+#getAnswer .right .bulle p {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6E7982;
+}
+
+#getAnswer .right .bulle ul {
+  padding-left: 25px;
+}
+
+#getAnswer .right .bulle li {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 13px;
+  color: #BDBFC2;
+  line-height: 20px;
+}
+
+#getAnswer .right button {
+  background: #EB4E4E;
+  border-radius: 5px;
+  font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  letter-spacing: 1.8px;
+  border: none;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
