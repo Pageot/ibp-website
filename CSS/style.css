@@ -260,7 +260,7 @@ header form {
   font-style: normal; }
 /* I NEED A BUSINESS PLAN SERVICE FOR MY VISA */
 /* Title */
-#products > div > div > div > h2 {
+#titleProduct {
   color: #6E7982;
   padding-top: 5rem;
   padding-bottom: 1rem; }
@@ -295,7 +295,7 @@ header form {
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
   font-size: 22px;
   color: #939393;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   padding-bottom: 0.3rem;
   line-height: 30px; }
 
@@ -304,7 +304,7 @@ header form {
   font-size: 15px;
   color: #7B7C7E;
   line-height: 24px;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   padding-bottom: 6rem; }
 
 .productDivider {
@@ -359,18 +359,15 @@ header form {
 /* Hover products */
 #E2 {
   position: relative;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in; }
+  transition-duration: 0.2s; }
 
 #L1 {
   position: relative;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in; }
+  transition-duration: 0.2s; }
 
 #EB5 {
   position: relative;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in; }
+  transition-duration: 0.2s; }
 
 #E2:hover #cta-E2 {
   height: 30px; }
