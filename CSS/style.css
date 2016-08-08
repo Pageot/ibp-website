@@ -152,53 +152,6 @@ header .row-form .btn-reviews {
 header .row-form .btn-reviews img {
   width: 14rem; }
 
-/* Carousel Bootstrap */
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
-#textCarroussel .carousel {
-  height: 450px;
-  background: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%); }
-
-/* Since positioning the image, we need to help out the caption */
-#textCarroussel .carousel-caption {
-  z-index: 10;
-  bottom: 90px; }
-
-/* Declare heights because of positioning of img element */
-#textCarroussel .carousel .item {
-  height: 450px;
-  background: transparent; }
-
-.carousel-control.left, .carousel-control.right {
-  background: none; }
-
-.carousel-control {
-  width: 8%; }
-
-.carousel-control img {
-  position: absolute;
-  top: 45%; }
-
-.carousel-control:hover {
-  background: none; }
-
-#textCarroussel .carousel-caption p {
-  text-transform: uppercase;
-  text-align: left;
-  font-family: 'AvenirNextMedium';
-  font-size: 35pt;
-  color: #FFFFFF;
-  letter-spacing: 6.54px;
-  margin-bottom: 0;
-  line-height: 1.2; }
-
-#textCarroussel .carousel-caption p:last-child {
-  margin-top: 40px;
-  font-size: 19px;
-  color: #D9D9D9;
-  letter-spacing: 2.88pt; }
-
 /* Title */
 .bigTitle {
   font-family: "AvenirNextRegular", Helvetica, sans-serif;
@@ -326,6 +279,53 @@ header .row-form .btn-reviews img {
   src: url("../fonts/ACaslonPro-Regular.otf");
   font-weight: 400;
   font-style: normal; }
+/* Carousel Bootstrap */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+#textCarroussel .carousel {
+  height: 450px;
+  background: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%); }
+
+/* Since positioning the image, we need to help out the caption */
+#textCarroussel .carousel-caption {
+  z-index: 10;
+  bottom: 90px; }
+
+/* Declare heights because of positioning of img element */
+#textCarroussel .carousel .item {
+  height: 450px;
+  background: transparent; }
+
+.carousel-control.left, .carousel-control.right {
+  background: none; }
+
+.carousel-control {
+  width: 8%; }
+
+.carousel-control img {
+  position: absolute;
+  top: 45%; }
+
+.carousel-control:hover {
+  background: none; }
+
+#textCarroussel .carousel-caption p {
+  text-transform: uppercase;
+  text-align: left;
+  font-family: 'AvenirNextMedium';
+  font-size: 35pt;
+  color: #FFFFFF;
+  letter-spacing: 6.54px;
+  margin-bottom: 0;
+  line-height: 1.2; }
+
+#textCarroussel .carousel-caption p:last-child {
+  margin-top: 40px;
+  font-size: 19px;
+  color: #D9D9D9;
+  letter-spacing: 2.88pt; }
+
 /* I NEED A BUSINESS PLAN SERVICE FOR MY VISA */
 /* Title */
 #titleProduct {
@@ -342,8 +342,7 @@ header .row-form .btn-reviews img {
 /* Products */
 .product {
   display: inline-block;
-  padding: 0rem 1.4rem 0rem 1rem;
-  margin-right: 2rem; }
+  padding: 0rem 1.4rem 0rem 1rem; }
 
 #E2 > h2 {
   color: #3387FB; }
@@ -438,7 +437,8 @@ header .row-form .btn-reviews img {
   transition-duration: 0.2s; }
 
 #E2:hover #cta-E2 {
-  height: 30px; }
+  height: 30px;
+  padding: 7px; }
 
 #E2:hover h2 {
   color: white; }
@@ -450,7 +450,8 @@ header .row-form .btn-reviews img {
   color: white; }
 
 #L1:hover #cta-L1 {
-  height: 30px; }
+  height: 30px;
+  padding: 7px; }
 
 #L1:hover h2 {
   color: white; }
@@ -462,7 +463,8 @@ header .row-form .btn-reviews img {
   color: white; }
 
 #EB5:hover #cta-EB5 {
-  height: 30px; }
+  height: 30px;
+  padding: 7px; }
 
 #EB5:hover h2 {
   color: white; }
@@ -475,5 +477,19 @@ header .row-form .btn-reviews img {
 
 .product:hover {
   background-color: #6E7982; }
+
+.product .cta img {
+  position: absolute;
+  left: -50px;
+  -webkit-transition: 0.5s;
+  /* Safari */
+  transition: 0.5s; }
+
+.product:hover .cta img {
+  -ms-transform: translate(70px, 0px);
+  /* IE 9 */
+  -webkit-transform: translate(70px, 0px);
+  /* Safari */
+  transform: translate(70px, 0px); }
 
 /*# sourceMappingURL=style.css.map */
