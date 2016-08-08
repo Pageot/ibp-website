@@ -328,7 +328,7 @@ header .row-form .btn-reviews img {
   font-style: normal; }
 /* I NEED A BUSINESS PLAN SERVICE FOR MY VISA */
 /* Title */
-#products > div > h2 {
+#titleProduct {
   color: #6E7982;
   padding-top: 5rem;
   padding-bottom: 1rem; }
@@ -342,7 +342,7 @@ header .row-form .btn-reviews img {
 /* Products */
 .product {
   display: inline-block;
-  padding: 0rem 1.4rem 0rem 1rem !important;
+  padding: 0rem 1.4rem 0rem 1rem;
   margin-right: 2rem; }
 
 #E2 > h2 {
@@ -363,7 +363,7 @@ header .row-form .btn-reviews img {
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
   font-size: 22px;
   color: #939393;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   padding-bottom: 0.3rem;
   line-height: 30px; }
 
@@ -372,7 +372,7 @@ header .row-form .btn-reviews img {
   font-size: 15px;
   color: #7B7C7E;
   line-height: 24px;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   padding-bottom: 6rem; }
 
 .productDivider {
@@ -408,14 +408,15 @@ header .row-form .btn-reviews img {
   right: 0;
   left: 0; }
 
-/* CtA Others Visas */
+/* Btn Others Visas */
 #othersVisas {
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
   font-size: 22px;
   color: #939393;
   text-decoration: underline;
-  border-bottom: 1px solid #939393;
+  border-bottom: 1.5px solid #939393;
   display: inline-block;
+  line-height: 25px;
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 4rem; }
@@ -423,23 +424,56 @@ header .row-form .btn-reviews img {
     color: #7B7C7E;
     border-color: #7B7C7E; }
 
-/* Hover product */
+/* Hover products */
 #E2 {
-  position: relative; }
+  position: relative;
+  transition-duration: 0.2s; }
 
 #L1 {
-  position: relative; }
+  position: relative;
+  transition-duration: 0.2s; }
 
 #EB5 {
-  position: relative; }
+  position: relative;
+  transition-duration: 0.2s; }
 
 #E2:hover #cta-E2 {
   height: 30px; }
 
+#E2:hover h2 {
+  color: white; }
+
+#E2:hover h3 {
+  color: white; }
+
+#E2:hover p {
+  color: white; }
+
 #L1:hover #cta-L1 {
   height: 30px; }
 
+#L1:hover h2 {
+  color: white; }
+
+#L1:hover h3 {
+  color: white; }
+
+#L1:hover p {
+  color: white; }
+
 #EB5:hover #cta-EB5 {
   height: 30px; }
+
+#EB5:hover h2 {
+  color: white; }
+
+#EB5:hover h3 {
+  color: white; }
+
+#EB5:hover p {
+  color: white; }
+
+.product:hover {
+  background-color: #6E7982; }
 
 /*# sourceMappingURL=style.css.map */
