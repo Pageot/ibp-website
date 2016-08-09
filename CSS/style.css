@@ -109,7 +109,7 @@ header .divider .typed-cursor {
 header .divider .type-wrap {
   color: white;
   padding-top: 70px;
-  font-family: 'AvenirNextDemiBold';
+  font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
   font-size: 101pt;
   display: block; }
 
@@ -186,9 +186,9 @@ header .row-form .btn-reviews img {
 #textCarroussel .carousel-caption p {
   text-transform: uppercase;
   text-align: left;
-  font-family: 'AvenirNextMedium';
+  font-family: "AvenirNextMedium", Helvetica, sans-serif;
   font-size: 35pt;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 6.54px;
   margin-bottom: 0;
   line-height: 1.2; }
@@ -281,6 +281,29 @@ header .row-form .btn-reviews img {
 .text-area {
   height: 11rem;
   padding-top: 0.7rem; }
+
+/* Second Divider */
+.padding-divider {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+.bg-gray {
+  background-color: #6E7982; }
+
+.twoSubTitle-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 1.6px; }
+
+.twoTitle-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 37px;
+  color: #FFFFFF;
+  letter-spacing: 3.9px; }
+
+.bg-gray > div > div > h2 {
+  margin: 0px; }
 
 /* Avenir Next */
 @font-face {
@@ -475,5 +498,53 @@ header .row-form .btn-reviews img {
 
 .product:hover {
   background-color: #6E7982; }
+
+header {
+  background-image: url(../images/pageAbout-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh; }
+
+/* First divider */
+.white-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 32px;
+  color: #69747E;
+  letter-spacing: 5px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding: 4.5rem 0rem 4.5rem 0rem; }
+
+/* Texte */
+.textAbout1 {
+  padding-top: 8rem;
+  padding-bottom: 6rem; }
+
+.textAbout1 > div > div > h2 {
+  color: #eb4e4e;
+  padding-bottom: 3rem; }
+
+.textAbout1 > div > ul {
+  margin-left: 5rem; }
+
+.textAbout1 > div > img {
+  margin-left: 7rem; }
+
+.textAbout1 > div > ul > li {
+  color: #eb4e4e;
+  list-style: none;
+  padding-bottom: 2rem;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px; }
+
+.pAbout {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6E7982;
+  line-height: 22px; }
+
+/* Red Divider */
+#redDivider {
+  background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
 
 /*# sourceMappingURL=style.css.map */

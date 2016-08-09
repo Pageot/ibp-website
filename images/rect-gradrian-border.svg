@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="458px" height="147px" viewBox="0 0 458 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 182</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.4912281%" y1="31.6216363%" x2="62.1710526%" y2="180.406359%" id="linearGradient-1">
+            <stop stop-color="#6E7982" offset="0%"></stop>
+            <stop stop-color="#EB4E4E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-719.000000, -2323.000000)" stroke="url(#linearGradient-1)" stroke-width="2" fill="#FFFFFF">
+            <g id="Get-informed" transform="translate(0.000000, 1968.000000)">
+                <path d="M720,361.006773 C720,358.241609 722.238433,356 725.00432,356 L1170.99568,356 C1173.75949,356 1176,358.236124 1176,361.006773 L1176,485.490689 C1176,488.255853 1173.75872,490.497462 1170.99055,490.497462 L1130.804,490.497462 L1123.20175,500 L1115.37314,490.497462 L724.998977,490.497462 C722.238118,490.497462 720,488.261338 720,485.490689 L720,361.006773 Z" id="Rectangle-182"></path>
+            </g>
+        </g>
+    </g>
+</svg>
