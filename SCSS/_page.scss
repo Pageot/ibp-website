@@ -373,3 +373,71 @@
   background-color: #2C2E31;
   margin-top: 15px;
 }
+
+#reason {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#reason h2, #reason h3 {
+  width: 100%;
+  text-align: center;
+}
+
+#reason h2 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 19px;
+  color: #444444  ;
+  letter-spacing: 7px;
+}
+
+#reason h3 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #939393  ;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-bottom: 12rem;
+}
+
+#reason .left img {
+  width: 80%;
+}
+
+#reason .right > .row {
+  margin-top: 70px;
+}
+#reason .right > .row:first-child {
+  margin-top: 0px;
+}
+
+#reason .right .number, #reason .right .text {
+  display: inline-block;
+}
+
+#reason .right .number, #reason .right .text h4 {
+  color: $emerald;
+}
+
+#reason .right .number {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 48px;
+  letter-spacing: 8.47px;
+}
+
+#reason .right .text h4 {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 2.3px;
+  width: auto;
+}
+
+#reason .right .text p {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 15px;
+  color: #939393  ;
+  letter-spacing: 1.1px;
+  line-height: 19px;
+  width: auto;
+  margin-top: 15px;
+}
