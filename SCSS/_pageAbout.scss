@@ -1,0 +1,58 @@
+#headerAbout {
+  background-image: url(../images/pageAbout-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+/* First divider */
+
+.white-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 32px;
+  color: #69747E;
+  letter-spacing: 5px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding: 4.5rem 0rem 4.5rem 0rem;
+}
+
+/* Texte */
+.textAbout1{
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.textAbout1>div>div>h2 {
+  color: $red;
+  padding-bottom: 3rem;
+}
+
+.textAbout1>div>ul{
+  margin-left: 5rem;
+}
+
+.textAbout1>div>img{
+  margin-left: 7rem;
+}
+
+.textAbout1>div>ul>li {
+  color: $red;
+  list-style: none;
+  padding-bottom: 2rem;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.pAbout {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6E7982;
+  line-height: 22px;
+}
+
+/* Red Divider */
+
+#redDivider {
+  background: linear-gradient(-90deg, #D83543 0%, #F35352 100%);
+}
