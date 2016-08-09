@@ -652,4 +652,269 @@ footer {
 #redDivider {
   background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
 
+
+#getAnswer {
+  background-color: #6e7982;
+  background-image: url("../images/pointInt.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 18% 0; }
+  #getAnswer .left, #getAnswer .right {
+    padding-top: 10rem;
+    padding-bottom: 10rem; }
+  #getAnswer .left {
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px; }
+    #getAnswer .left h2 {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 37px;
+      color: #FFFFFF;
+      line-height: 51px;
+      text-transform: uppercase; }
+    #getAnswer .left p {
+      font-family: "AvenirNextMedium", Helvetica, sans-serif;
+      font-size: 15px;
+      color: #F7F7F7;
+      line-height: 24px; }
+      #getAnswer .left p a {
+        color: #F7F7F7;
+        text-decoration: none; }
+  #getAnswer .right .button-cont {
+    list-style: none;
+    margin-bottom: 50px;
+    padding: 0 20px; }
+    #getAnswer .right .button-cont li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 25px; }
+    #getAnswer .right .button-cont .button {
+      padding: 7px 20px;
+      width: 100%;
+      display: block;
+      text-align: center;
+      font-family: "AvenirNextMedium", Helvetica, sans-serif;
+      font-size: 16px;
+      color: #FFFFFF;
+      background-color: #59636B;
+      border: 1px solid #FFFFFF;
+      border-radius: 100px; }
+      #getAnswer .right .button-cont .button:hover {
+        background: #434E58;
+        border: 1px solid #fefcfd;
+        text-decoration: none; }
+  #getAnswer .right .bulle {
+    background-image: url("../images/rect-gradrian-border.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 60px; }
+    #getAnswer .right .bulle h3 {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 19px;
+      color: #058FFF;
+      margin-top: 0; }
+    #getAnswer .right .bulle p {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #6E7982; }
+    #getAnswer .right .bulle ul {
+      padding-left: 25px; }
+      #getAnswer .right .bulle ul li {
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 13px;
+        color: #BDBFC2;
+        line-height: 20px; }
+  #getAnswer .right button {
+    background: #EB4E4E;
+    border-radius: 5px;
+    font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 1.8px;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px; }
+
+#Drafting {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F8F9FB; }
+  #Drafting h2 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 39px;
+    color: #2C2E31;
+    margin-top: 0;
+    width: 100%;
+    text-align: center; }
+  #Drafting h3 {
+    font-family: 'ProximaNovaThin', Helvetica, sans-serif;
+    font-size: 38px;
+    color: #2C2E31;
+    width: 100%;
+    text-align: center; }
+  #Drafting #underline {
+    height: 1px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #2C2E31;
+    margin-top: 15px; }
+
+#reason {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  #reason h2, #reason h3 {
+    width: 100%;
+    text-align: center; }
+  #reason h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px; }
+  #reason h3 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-bottom: 12rem; }
+  #reason .left img {
+    width: 80%; }
+  #reason .right > .row {
+    margin-top: 70px; }
+  #reason .right > .row:first-child {
+    margin-top: 0px; }
+  #reason .right .number, #reason .right .text {
+    display: inline-block; }
+  #reason .right .number, #reason .right .text h4 {
+    color: #00c595; }
+  #reason .right .number {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 48px;
+    letter-spacing: 8.47px; }
+  #reason .right .text {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif; }
+    #reason .right .text h4 {
+      font-size: 13px;
+      letter-spacing: 2.3px;
+      width: auto; }
+    #reason .right .text p {
+      font-size: 15px;
+      color: #939393;
+      letter-spacing: 1.1px;
+      line-height: 19px;
+      width: auto;
+      margin-top: 15px; }
+
+#icons {
+  background-color: #f8f9fb;
+  text-align: center;
+  padding-top: 150px;
+  font-family: 'ProximaNovaRegular', Helvetica, sans-serif; }
+  #icons img {
+    height: 50px; }
+  #icons h2 {
+    font-size: 30px;
+    color: #2c2e31; }
+  #icons h3 {
+    font-size: 17px;
+    color: #939393;
+    margin-bottom: 90px; }
+  #icons h4 {
+    font-size: 17px;
+    color: #2c2e31;
+    margin-top: 15px; }
+  #icons p {
+    font-size: 15px;
+    color: #939393;
+    letter-spacing: 1.1px;
+    line-height: 19px;
+    height: 180px;
+    padding: 10px 10px 0px 10px; }
+
+#sample {
+  background-color: #f8f9fb;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #sample h2 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    margin-bottom: 90px; }
+  #sample .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border-radius: 8px; }
+    #sample .hovereffect .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      background-color: rgba(75, 75, 75, 0.7);
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
+    #sample .hovereffect:hover .overlay {
+      background-color: rgba(48, 152, 157, 0.4); }
+    #sample .hovereffect img {
+      display: block;
+      position: relative; }
+    #sample .hovereffect h3 {
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      font-size: 17px;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      -webkit-transform: translateY(45px);
+      -ms-transform: translateY(45px);
+      transform: translateY(45px);
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      margin-top: 60px; }
+    #sample .hovereffect:hover h3 {
+      -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+      transform: translateY(5px); }
+    #sample .hovereffect a.info {
+      display: inline-block;
+      text-decoration: none;
+      padding: 7px 14px;
+      text-transform: uppercase;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: transparent;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      font-weight: normal;
+      margin: -25% 0 0 0;
+      padding: 29% 38%; }
+    #sample .hovereffect:hover a.info {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+    #sample .hovereffect a.info:hover {
+      box-shadow: 0 0 5px #fff; }
+
 /*# sourceMappingURL=style.css.map */
