@@ -109,7 +109,7 @@ header .divider .typed-cursor {
 header .divider .type-wrap {
   color: white;
   padding-top: 70px;
-  font-family: 'AvenirNextDemiBold';
+  font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
   font-size: 101pt;
   display: block; }
 
@@ -152,6 +152,53 @@ header .row-form .btn-reviews {
 header .row-form .btn-reviews img {
   width: 14rem; }
 
+/* Carousel Bootstrap */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+#textCarroussel .carousel {
+  height: 450px;
+  background: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%); }
+
+/* Since positioning the image, we need to help out the caption */
+#textCarroussel .carousel-caption {
+  z-index: 10;
+  bottom: 90px; }
+
+/* Declare heights because of positioning of img element */
+#textCarroussel .carousel .item {
+  height: 450px;
+  background: transparent; }
+
+.carousel-control.left, .carousel-control.right {
+  background: none; }
+
+.carousel-control {
+  width: 8%; }
+
+.carousel-control img {
+  position: absolute;
+  top: 45%; }
+
+.carousel-control:hover {
+  background: none; }
+
+#textCarroussel .carousel-caption p {
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "AvenirNextMedium", Helvetica, sans-serif;
+  font-size: 35pt;
+  color: #ffffff;
+  letter-spacing: 6.54px;
+  margin-bottom: 0;
+  line-height: 1.2; }
+
+#textCarroussel .carousel-caption p:last-child {
+  margin-top: 40px;
+  font-size: 19px;
+  color: #D9D9D9;
+  letter-spacing: 2.88pt; }
+
 /* Title */
 .bigTitle {
   font-family: "AvenirNextRegular", Helvetica, sans-serif;
@@ -179,6 +226,9 @@ header .row-form .btn-reviews img {
 
 .align-center {
   text-align: center; }
+
+.inline-block {
+  display: inline-block; }
 
 /* Btn */
 .btn-radiusRed {
@@ -235,6 +285,37 @@ header .row-form .btn-reviews img {
   height: 11rem;
   padding-top: 0.7rem; }
 
+.btn-fullEmerald {
+  background: #00C595;
+  border-radius: 8px;
+  border: none;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 13px;
+  color: #FFFFFF; }
+
+/* Second Divider */
+.padding-divider {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+.bg-gray {
+  background-color: #6E7982; }
+
+.twoSubTitle-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 1.6px; }
+
+.twoTitle-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 37px;
+  color: #FFFFFF;
+  letter-spacing: 3.9px; }
+
+.bg-gray > div > div > h2 {
+  margin: 0px; }
+
 /* Avenir Next */
 @font-face {
   font-family: 'AvenirNextLight';
@@ -279,6 +360,37 @@ header .row-form .btn-reviews img {
   src: url("../fonts/ACaslonPro-Regular.otf");
   font-weight: 400;
   font-style: normal; }
+footer {
+  background-color: #46474C;
+  padding-top: 6rem; }
+
+.footerTitle {
+  font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #7D7E83; }
+
+.footerLi {
+  padding: 0px; }
+
+.footerLi > li {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  line-height: 21px;
+  font-size: 11px;
+  color: #9FA3A9;
+  list-style: none; }
+
+.footerP {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #8C8C8C;
+  text-align: center;
+  margin: 0px; }
+
+.legalText {
+  margin-top: 4rem;
+  background-color: #3E3F44;
+  padding: 1.5rem 0rem 1.5rem 0rem; }
+
 /* Carousel Bootstrap */
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -491,6 +603,55 @@ header .row-form .btn-reviews img {
   -webkit-transform: translate(70px, 0px);
   /* Safari */
   transform: translate(70px, 0px); }
+
+#headerAbout {
+  background-image: url(../images/pageAbout-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh; }
+
+/* First divider */
+.white-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 32px;
+  color: #69747E;
+  letter-spacing: 5px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding: 4.5rem 0rem 4.5rem 0rem; }
+
+/* Texte */
+.textAbout1 {
+  padding-top: 8rem;
+  padding-bottom: 6rem; }
+
+.textAbout1 > div > div > h2 {
+  color: #eb4e4e;
+  padding-bottom: 3rem; }
+
+.textAbout1 > div > ul {
+  margin-left: 5rem; }
+
+.textAbout1 > div > img {
+  margin-left: 7rem; }
+
+.textAbout1 > div > ul > li {
+  color: #eb4e4e;
+  list-style: none;
+  padding-bottom: 2rem;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px; }
+
+.pAbout {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6E7982;
+  line-height: 22px; }
+
+/* Red Divider */
+#redDivider {
+  background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
+
 
 #getAnswer {
   background-color: #6e7982;

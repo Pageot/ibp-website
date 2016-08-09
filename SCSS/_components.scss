@@ -34,6 +34,9 @@
   text-align: center;
 }
 
+.inline-block {
+  display: inline-block;
+}
 /* Btn */
 
 .btn-radiusRed {
@@ -97,4 +100,42 @@
 .text-area {
   height: 11rem;
   padding-top: 0.7rem;
+}
+
+.btn-fullEmerald {
+  background: #00C595;
+  border-radius: 8px;
+  border: none;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+  
+/* Second Divider */
+
+.padding-divider{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.bg-gray {
+  background-color: #6E7982;
+}
+
+.twoSubTitle-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: 1.6px;
+}
+
+.twoTitle-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 37px;
+  color: #FFFFFF;
+  letter-spacing: 3.9px;
+}
+
+.bg-gray>div>div>h2 {
+  margin: 0px;
 }
