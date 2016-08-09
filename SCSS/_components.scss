@@ -34,6 +34,9 @@
   text-align: center;
 }
 
+.inline-block {
+  display: inline-block;
+}
 /* Btn */
 
 .btn-radiusRed {
@@ -99,7 +102,15 @@
   padding-top: 0.7rem;
 }
 
-
+.btn-fullEmerald {
+  background: #00C595;
+  border-radius: 8px;
+  border: none;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+  
 /* Second Divider */
 
 .padding-divider{

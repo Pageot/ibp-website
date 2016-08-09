@@ -227,6 +227,9 @@ header .row-form .btn-reviews img {
 .align-center {
   text-align: center; }
 
+.inline-block {
+  display: inline-block; }
+
 /* Btn */
 .btn-radiusRed {
   border-radius: 50px;
@@ -281,6 +284,14 @@ header .row-form .btn-reviews img {
 .text-area {
   height: 11rem;
   padding-top: 0.7rem; }
+
+.btn-fullEmerald {
+  background: #00C595;
+  border-radius: 8px;
+  border: none;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 13px;
+  color: #FFFFFF; }
 
 /* Second Divider */
 .padding-divider {
@@ -349,6 +360,37 @@ header .row-form .btn-reviews img {
   src: url("../fonts/ACaslonPro-Regular.otf");
   font-weight: 400;
   font-style: normal; }
+footer {
+  background-color: #46474C;
+  padding-top: 6rem; }
+
+.footerTitle {
+  font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #7D7E83; }
+
+.footerLi {
+  padding: 0px; }
+
+.footerLi > li {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  line-height: 21px;
+  font-size: 11px;
+  color: #9FA3A9;
+  list-style: none; }
+
+.footerP {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #8C8C8C;
+  text-align: center;
+  margin: 0px; }
+
+.legalText {
+  margin-top: 4rem;
+  background-color: #3E3F44;
+  padding: 1.5rem 0rem 1.5rem 0rem; }
+
 /* I NEED A BUSINESS PLAN SERVICE FOR MY VISA */
 /* Title */
 #titleProduct {
@@ -499,7 +541,7 @@ header .row-form .btn-reviews img {
 .product:hover {
   background-color: #6E7982; }
 
-header {
+#headerAbout {
   background-image: url(../images/pageAbout-header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;

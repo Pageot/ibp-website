@@ -1,0 +1,37 @@
+footer {
+  background-color: #46474C;
+  padding-top: 6rem;
+}
+
+
+.footerTitle {
+  font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #7D7E83;
+}
+
+.footerLi {
+  padding: 0px;
+}
+
+.footerLi>li {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  line-height: 21px;
+  font-size: 11px;
+  color: #9FA3A9;
+  list-style: none;
+}
+
+.footerP {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 11px;
+  color: #8C8C8C;
+  text-align: center;
+  margin: 0px;
+}
+
+.legalText {
+  margin-top: 4rem;
+  background-color: #3E3F44;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+}
