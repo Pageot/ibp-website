@@ -116,7 +116,7 @@ header .divider .type-wrap {
 header h2 {
   font-family: "AvenirNextLight", Helvetica, sans-serif;
   font-size: 17px;
-  color: #efefea; }
+  color: #fff; }
 
 header h2 > strong {
   font-family: "AvenirNextDemiBold", Helvetica, sans-serif; }
@@ -227,8 +227,8 @@ header .row-form .btn-reviews img {
 .align-center {
   text-align: center; }
 
-.inline-block {
-  display: inline-block; }
+.no-padding {
+  padding: 0px; }
 
 /* Btn */
 .btn-radiusRed {
@@ -259,7 +259,7 @@ header .row-form .btn-reviews img {
 
 /* form */
 .form {
-  padding: 10px 15px;
+  padding: 10px 37px 10px 15px;
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid #999999;
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
@@ -285,13 +285,18 @@ header .row-form .btn-reviews img {
   height: 11rem;
   padding-top: 0.7rem; }
 
+/* Footer form */
 .btn-fullEmerald {
   background: #00C595;
   border-radius: 8px;
   border: none;
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
   font-size: 13px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-left: 15px;
+  margin-top: 1rem;
+  padding: 0.9rem 0rem 0.9rem 0rem;
+  width: 99%; }
 
 /* Second Divider */
 .padding-divider {
@@ -390,6 +395,12 @@ footer {
   margin-top: 4rem;
   background-color: #3E3F44;
   padding: 1.5rem 0rem 1.5rem 0rem; }
+
+.form-footer > div > div > input {
+  font-size: 12px; }
+
+.form-footer {
+  margin-left: 5%; }
 
 /* Carousel Bootstrap */
 /* CUSTOMIZE THE CAROUSEL
@@ -603,55 +614,6 @@ footer {
   -webkit-transform: translate(70px, 0px);
   /* Safari */
   transform: translate(70px, 0px); }
-
-#headerAbout {
-  background-image: url(../images/pageAbout-header.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh; }
-
-/* First divider */
-.white-divider {
-  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
-  font-size: 32px;
-  color: #69747E;
-  letter-spacing: 5px;
-  line-height: 48px;
-  text-transform: uppercase;
-  padding: 4.5rem 0rem 4.5rem 0rem; }
-
-/* Texte */
-.textAbout1 {
-  padding-top: 8rem;
-  padding-bottom: 6rem; }
-
-.textAbout1 > div > div > h2 {
-  color: #eb4e4e;
-  padding-bottom: 3rem; }
-
-.textAbout1 > div > ul {
-  margin-left: 5rem; }
-
-.textAbout1 > div > img {
-  margin-left: 7rem; }
-
-.textAbout1 > div > ul > li {
-  color: #eb4e4e;
-  list-style: none;
-  padding-bottom: 2rem;
-  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
-  font-size: 14px; }
-
-.pAbout {
-  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
-  font-size: 14px;
-  color: #6E7982;
-  line-height: 22px; }
-
-/* Red Divider */
-#redDivider {
-  background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
-
 
 #getAnswer {
   background-color: #6e7982;
@@ -916,5 +878,53 @@ footer {
       transform: scale(1); }
     #sample .hovereffect a.info:hover {
       box-shadow: 0 0 5px #fff; }
+
+#headerAbout {
+  background-image: url(../images/pageAbout-header.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh; }
+
+/* First divider */
+.white-divider {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 32px;
+  color: #69747E;
+  letter-spacing: 5px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding: 4.5rem 0rem 4.5rem 0rem; }
+
+/* Texte */
+.textAbout1 {
+  padding-top: 8rem;
+  padding-bottom: 6rem; }
+
+.textAbout1 > div > div > h2 {
+  color: #eb4e4e;
+  padding-bottom: 3rem; }
+
+.textAbout1 > div > ul {
+  margin-left: 5rem; }
+
+.textAbout1 > div > img {
+  margin-left: 7rem; }
+
+.textAbout1 > div > ul > li {
+  color: #eb4e4e;
+  list-style: none;
+  padding-bottom: 2rem;
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px; }
+
+.pAbout {
+  font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6E7982;
+  line-height: 22px; }
+
+/* Red Divider */
+#redDivider {
+  background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
 
 /*# sourceMappingURL=style.css.map */
