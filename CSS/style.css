@@ -868,8 +868,142 @@ footer {
     #sample .hovereffect a.info:hover {
       box-shadow: 0 0 5px #fff; }
 
+#howWeWork {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #howWeWork h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px; }
+  #howWeWork h3 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-bottom: 5rem; }
+  #howWeWork .left > div > div {
+    margin-top: 50px; }
+  #howWeWork .left h4 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 13px;
+    color: #eb4e4e;
+    letter-spacing: 2.30px; }
+  #howWeWork .left p {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+    letter-spacing: 1px;
+    line-height: 19px; }
+  #howWeWork .left img {
+    display: block;
+    height: 35px;
+    margin-bottom: 10px; }
+  #howWeWork .left .number {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 13px;
+    color: #eb4e4e; }
+  #howWeWork .right {
+    padding-top: 100px;
+    text-align: center; }
+
 #emeraldDivider {
-  background-color: #2eca9c; }
+  background-color: #2eca9c;
+  text-transform: uppercase; }
+
+#carouselRow {
+  background-color: #f8f9fb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative; }
+  #carouselRow #wrapper {
+    width: 100%;
+    overflow: hidden; }
+    #carouselRow #wrapper #carousel > div {
+      width: 554px;
+      margin: 20px 30px;
+      float: left;
+      position: relative;
+      opacity: 0.5;
+      background: white;
+      border: 1px solid #E6E6E6;
+      border-radius: 8px;
+      padding: 20px 30px; }
+      #carouselRow #wrapper #carousel > div.selected {
+        opacity: 1; }
+      #carouselRow #wrapper #carousel > div img {
+        height: 55px; }
+      #carouselRow #wrapper #carousel > div h3 {
+        font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+        font-size: 22px;
+        color: #00c595;
+        margin: 0 0 20px 0;
+        display: inline-block; }
+      #carouselRow #wrapper #carousel > div p {
+        font-family: 'Caslon', serif;
+        font-size: 17px;
+        color: #2C2E31;
+        letter-spacing: 0.7px;
+        padding: 20px 0 0 0; }
+    #carouselRow #wrapper #prev, #carouselRow #wrapper #next {
+      background: center center no-repeat transparent;
+      display: block;
+      width: 38px;
+      height: 72px;
+      margin-top: -30px;
+      position: absolute;
+      background-size: contain;
+      top: 50%;
+      z-index: 5; }
+      #carouselRow #wrapper #prev.disabled, #carouselRow #wrapper #next.disabled {
+        opacity: 0.2;
+        cursor: default; }
+        #carouselRow #wrapper #prev.disabled:hover, #carouselRow #wrapper #next.disabled:hover {
+          background-color: transparent; }
+    #carouselRow #wrapper #prev {
+      background-image: url("../images/arrowLeft.svg");
+      left: 2%; }
+    #carouselRow #wrapper #next {
+      background-image: url("../images/arrowRight.svg");
+      right: 2%; }
+
+#logo {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #logo h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin: 0; }
+  #logo #underline {
+    height: 1px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #E6E6E6;
+    margin-top: 40px; }
+  #logo h3, #logo h4 {
+    margin: 0; }
+  #logo h3 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 22px;
+    color: #2c2e31; }
+  #logo h4 {
+    margin-top: 15px;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+    letter-spacing: 1px;
+    line-height: 19px; }
+  #logo a.btn-radiusEmerald {
+    padding: 7px 30px; }
 
 #headerAbout {
   background-image: url(../images/pageAbout-header.jpeg);
