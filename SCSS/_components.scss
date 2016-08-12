@@ -82,6 +82,7 @@
   font-size: 15px;
   margin-top: 0.5rem;
   color: #FFFFFF;
+  width: 100%;
 }
 
 ::-webkit-input-placeholder {
@@ -104,6 +105,19 @@
 }
 
     /* Footer form */
+.form-footer {
+  .input {
+    .col-md-6 {
+      padding-left: 2px;
+
+      &:first-child {
+        padding-left: 15px;
+        padding-right: 2px;
+      }
+    }
+  }
+}
+
 .btn-fullEmerald {
   background: #00C595;
   border-radius: 8px;
@@ -111,10 +125,9 @@
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
   font-size: 13px;
   color: #FFFFFF;
-  margin-left: 15px;
   margin-top: 1rem;
   padding: 0.9rem 0rem 0.9rem 0rem;
-  width: 99%;
+  width: 100%;
 }
 
 /* Second Divider */
