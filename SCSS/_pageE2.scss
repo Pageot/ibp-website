@@ -1,0 +1,194 @@
+#headerProduct {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url('../images/bgE2.jpg');
+  h1 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 31px;
+    color: $black;
+  }
+  h2 {
+    font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-bottom: 70px;
+  }
+  p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 70px;
+  }
+  a {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 16px;
+    color: $colorE2;
+
+    img {
+      margin-right: 15px;
+    }
+  }
+}
+
+#details {
+  padding-top: 20px;
+  padding-bottom: 150px;
+  h2 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    margin-bottom: 90px;
+  }
+  .left {
+    img {
+      width: 100%
+    }
+  }
+
+  .right {
+    padding-top: 70px;
+    p {
+      font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+      font-size: 14px;
+      color: $black
+    }
+    ul {
+      padding-left: 15px;
+    }
+    li {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 13px;
+      color: $black;
+      letter-spacing: 2.30px;
+      text-transform: uppercase;
+      line-height: 2;
+      padding-left: 10px;
+
+      &.light {
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 13px;
+        color: #4B4B4B;
+        letter-spacing: 2.30px;
+      }
+    }
+    button {
+      background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 7px 15px;
+      margin-top: 20px;
+    }
+  }
+}
+
+#thingRemember {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+
+  h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(68, 68, 68);
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 80px;
+  }
+  img {
+    width: 70%;
+  }
+  h3 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 14px;
+    color: $black;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 50px;
+  }
+  p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 70px;
+  }
+}
+
+#blueDivider {
+  background-color: $colorE2;
+  text-transform: uppercase;
+}
+
+#ourExperience {
+  padding-top: 125px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: $colorE2;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  p, ul {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  .seperateur {
+    border-top: solid 1px rgb(230, 230, 230);
+    padding-top: 20px;
+
+    .left {
+      h3 {
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 22px;
+        color: $black;
+      }
+
+      h4 {
+        margin-top: 15px;
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 14px;
+        color: rgb(147, 147, 147);
+        letter-spacing: 1px;
+        line-height: 19px;
+      }
+    }
+
+    .right {
+      text-align: center;
+
+      button {
+        background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 7px 15px;
+        margin-top: 30px;
+      }
+    }
+
+  }
+}

@@ -315,6 +315,7 @@ header .row-form .btn-reviews img {
 .twoTitle-divider {
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
   font-size: 37px;
+  text-transform: uppercase;
   color: #FFFFFF;
   letter-spacing: 3.9px; }
 
@@ -1063,5 +1064,153 @@ footer {
 /* Red Divider */
 #redDivider {
   background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
+
+#headerProduct {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url("../images/bgE2.jpg"); }
+  #headerProduct h1 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 31px;
+    color: #2c2e31; }
+  #headerProduct h2 {
+    font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-bottom: 70px; }
+  #headerProduct p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 70px; }
+  #headerProduct a {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #3387FB; }
+    #headerProduct a img {
+      margin-right: 15px; }
+
+#details {
+  padding-top: 20px;
+  padding-bottom: 150px; }
+  #details h2 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    margin-bottom: 90px; }
+  #details .left img {
+    width: 100%; }
+  #details .right {
+    padding-top: 70px; }
+    #details .right p {
+      font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #2c2e31; }
+    #details .right ul {
+      padding-left: 15px; }
+    #details .right li {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 13px;
+      color: #2c2e31;
+      letter-spacing: 2.30px;
+      text-transform: uppercase;
+      line-height: 2;
+      padding-left: 10px; }
+      #details .right li.light {
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 13px;
+        color: #4B4B4B;
+        letter-spacing: 2.30px; }
+    #details .right button {
+      background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 7px 15px;
+      margin-top: 20px; }
+
+#thingRemember {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center; }
+  #thingRemember h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 80px; }
+  #thingRemember img {
+    width: 70%; }
+  #thingRemember h3 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2c2e31;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 50px; }
+  #thingRemember p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 70px; }
+
+#blueDivider {
+  background-color: #3387FB;
+  text-transform: uppercase; }
+
+#ourExperience {
+  padding-top: 125px;
+  padding-bottom: 50px; }
+  #ourExperience h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #3387FB;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  #ourExperience p, #ourExperience ul {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 50px; }
+  #ourExperience ul li {
+    list-style: none; }
+  #ourExperience .seperateur {
+    border-top: solid 1px #e6e6e6;
+    padding-top: 20px; }
+    #ourExperience .seperateur .left h3 {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 22px;
+      color: #2c2e31; }
+    #ourExperience .seperateur .left h4 {
+      margin-top: 15px;
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #939393;
+      letter-spacing: 1px;
+      line-height: 19px; }
+    #ourExperience .seperateur .right {
+      text-align: center; }
+      #ourExperience .seperateur .right button {
+        background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 7px 15px;
+        margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
