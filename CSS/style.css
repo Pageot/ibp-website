@@ -1081,6 +1081,10 @@ footer {
   #getAnswer .right {
     padding-top: 2rem;
     padding-bottom: 10rem; }
+    #getAnswer .right .button-cont {
+      padding: 0 5px; }
+      #getAnswer .right .button-cont li {
+        padding: 0px 5px; }
 
   #howWeWork h2, #howWeWork h3 {
     text-align: center; }
@@ -1310,6 +1314,17 @@ footer {
 @media (max-width: 767px) {
   #thingRememberE2 img {
     width: 50%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberE2 img {
+    width: 35%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsE2 .right {
+    padding-top: 10px; }
+    #detailsE2 .right li, #detailsE2 .right li.light {
+      font-size: 11px; }
+    #detailsE2 .right button {
+      font-size: 14px;
+      margin-top: 10px; } }
 #headerProductEB5 {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -1469,6 +1484,17 @@ footer {
 @media (max-width: 767px) {
   #thingRememberEB5 img {
     width: 50%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberEB5 img {
+    width: 35%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsEB5 .right {
+    padding-top: 10px; }
+    #detailsEB5 .right li, #detailsEB5 .right li.light {
+      font-size: 11px; }
+    #detailsEB5 .right button {
+      font-size: 14px;
+      margin-top: 10px; } }
 #headerProductL1 {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -1628,5 +1654,16 @@ footer {
 @media (max-width: 767px) {
   #thingRememberL1 img {
     width: 50%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberL1 img {
+    width: 35%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsL1 .right {
+    padding-top: 10px; }
+    #detailsL1 .right li, #detailsL1 .right li.light {
+      font-size: 11px; }
+    #detailsL1 .right button {
+      font-size: 14px;
+      margin-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

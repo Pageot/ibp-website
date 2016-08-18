@@ -297,7 +297,7 @@
       background-repeat: no-repeat;
       background-size: 100% 100%;
       padding: 20px 60px;
-      
+
       a {
         text-decoration: none;
         &:hover {
@@ -794,6 +794,13 @@
     .right {
       padding-top: 2rem;
       padding-bottom: 10rem;
+
+      .button-cont {
+        padding: 0 5px;
+        li {
+          padding: 0px 5px;
+        }
+      }
     }
   }
   #howWeWork {

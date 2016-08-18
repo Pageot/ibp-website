@@ -210,3 +210,22 @@
     width: 50%;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberEB5 img {
+    width: 35%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsEB5 .right {
+    padding-top: 10px;
+    li, li.light {
+      font-size: 11px;
+    }
+    button {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
+}
