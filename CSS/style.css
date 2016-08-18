@@ -676,7 +676,7 @@ footer {
   #getAnswer .right .button-cont {
     list-style: none;
     margin-bottom: 50px;
-    padding: 0 20px; }
+    padding: 0 50px; }
     #getAnswer .right .button-cont li {
       list-style: none;
       display: inline-block;
@@ -824,7 +824,8 @@ footer {
     font-size: 17px;
     color: #2c2e31;
     margin-top: 30px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    height: 36px; }
   #icons p {
     font-size: 15px;
     color: #939393;
@@ -1090,6 +1091,10 @@ footer {
   #getAnswer .right {
     padding-top: 2rem;
     padding-bottom: 10rem; }
+    #getAnswer .right .button-cont {
+      padding: 0 5px; }
+      #getAnswer .right .button-cont li {
+        padding: 0px 5px; }
 
   #howWeWork h2, #howWeWork h3 {
     text-align: center; }
@@ -1108,16 +1113,22 @@ footer {
   #products .product h3 {
     min-height: 73px; }
 
-  #getAnswer .right .button-cont li {
-    padding: 0 5px; }
+  #getAnswer .right .button-cont {
+    padding: 0 10px; }
+    #getAnswer .right .button-cont li {
+      padding: 0 5px; }
   #getAnswer .right .bulle {
     background-size: 100% 100%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
-  #getAnswer .right .button-cont li {
+  #getAnswer .right .button-cont {
     padding: 0 5px; }
-
-  #icons h4 {
-    height: 36px; } }
+    #getAnswer .right .button-cont li {
+      padding: 0 5px; } }
+@media (min-width: 1200px) and (max-width: 1600px) {
+  #getAnswer .right .button-cont {
+    padding: 0 10px; }
+    #getAnswer .right .button-cont li {
+      padding: 0 10px; } }
 #headerAbout {
   background-image: url(../images/pageAbout-header.jpg);
   background-repeat: no-repeat;
@@ -1319,6 +1330,17 @@ footer {
 @media (max-width: 767px) {
   #thingRememberE2 img {
     width: 50%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberE2 img {
+    width: 35%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsE2 .right {
+    padding-top: 10px; }
+    #detailsE2 .right li, #detailsE2 .right li.light {
+      font-size: 11px; }
+    #detailsE2 .right button {
+      font-size: 14px;
+      margin-top: 10px; } }
 #headerProductEB5 {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -1478,6 +1500,17 @@ footer {
 @media (max-width: 767px) {
   #thingRememberEB5 img {
     width: 50%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberEB5 img {
+    width: 35%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsEB5 .right {
+    padding-top: 10px; }
+    #detailsEB5 .right li, #detailsEB5 .right li.light {
+      font-size: 11px; }
+    #detailsEB5 .right button {
+      font-size: 14px;
+      margin-top: 10px; } }
 #headerProductL1 {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -1637,5 +1670,16 @@ footer {
 @media (max-width: 767px) {
   #thingRememberL1 img {
     width: 50%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #thingRememberL1 img {
+    width: 35%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #detailsL1 .right {
+    padding-top: 10px; }
+    #detailsL1 .right li, #detailsL1 .right li.light {
+      font-size: 11px; }
+    #detailsL1 .right button {
+      font-size: 14px;
+      margin-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

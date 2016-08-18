@@ -265,7 +265,7 @@
     .button-cont {
       list-style: none;
       margin-bottom: 50px;
-      padding: 0 20px;
+      padding: 0 50px;
 
       li {
         list-style: none;
@@ -297,7 +297,7 @@
       background-repeat: no-repeat;
       background-size: 100% 100%;
       padding: 20px 60px;
-      
+
       a {
         text-decoration: none;
         &:hover {
@@ -462,6 +462,7 @@
     color: $black;
     margin-top: 30px;
     margin-bottom: 20px;
+    height: 36px;
   }
   p {
     font-size: 15px;
@@ -797,6 +798,13 @@
     .right {
       padding-top: 2rem;
       padding-bottom: 10rem;
+
+      .button-cont {
+        padding: 0 5px;
+        li {
+          padding: 0px 5px;
+        }
+      }
     }
   }
   #howWeWork {
@@ -836,8 +844,11 @@
 
   #getAnswer {
     .right {
-      .button-cont li{
-        padding: 0 5px;
+      .button-cont {
+        padding: 0 10px;
+        li {
+          padding: 0 5px;
+        }
       }
       .bulle {
         background-size: 100% 100% ;
@@ -849,15 +860,24 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   #getAnswer {
     .right {
-      .button-cont li{
+      .button-cont {
         padding: 0 5px;
+        li {
+          padding: 0 5px;
+        }
       }
     }
   }
-
-  #icons {
-    h4 {
-      height: 36px;
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  #getAnswer {
+    .right {
+      .button-cont {
+        padding: 0 10px;
+        li {
+          padding: 0 10px;
+        }
+      }
     }
   }
 }
