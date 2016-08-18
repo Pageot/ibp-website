@@ -562,15 +562,13 @@ footer {
   font-size: 22px;
   color: #939393;
   text-decoration: underline;
-  border-bottom: 1.5px solid #939393;
   display: inline-block;
   line-height: 25px;
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 4rem; }
   #othersVisas:hover {
-    color: #7B7C7E;
-    border-color: #7B7C7E; }
+    color: #7B7C7E; }
 
 /* Hover products */
 #E2 {
@@ -697,6 +695,10 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 20px 60px; }
+    #getAnswer .right .bulle a {
+      text-decoration: none; }
+      #getAnswer .right .bulle a:hover {
+        text-decoration: none; }
     #getAnswer .right .bulle h3 {
       font-family: 'AvenirNextRegular', Helvetica, sans-serif;
       font-size: 19px;
@@ -803,7 +805,7 @@ footer {
   padding-top: 150px;
   font-family: 'ProximaNovaRegular', Helvetica, sans-serif; }
   #icons img {
-    height: 50px; }
+    height: 67px; }
   #icons h2 {
     font-size: 30px;
     color: #2c2e31; }
@@ -814,7 +816,8 @@ footer {
   #icons h4 {
     font-size: 17px;
     color: #2c2e31;
-    margin-top: 15px; }
+    margin-top: 30px;
+    margin-bottom: 20px; }
   #icons p {
     font-size: 15px;
     color: #939393;
@@ -858,18 +861,19 @@ footer {
       -webkit-transition: all 0.4s ease-in-out;
       transition: all 0.4s ease-in-out; }
     #sample .hovereffect:hover .overlay {
-      background-color: rgba(48, 152, 157, 0.4); }
+      background: rgba(33, 33, 33, 0.24); }
     #sample .hovereffect img {
       display: block;
       position: relative; }
     #sample .hovereffect h3 {
+      font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
       text-transform: uppercase;
       color: #fff;
       text-align: center;
       position: relative;
-      font-size: 17px;
+      font-size: 25px;
       padding: 10px;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.36);
       -webkit-transform: translateY(45px);
       -ms-transform: translateY(45px);
       transform: translateY(45px);
