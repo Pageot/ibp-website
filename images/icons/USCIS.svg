@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-1066.000000, -3949.000000)">
+            <g id="Group-03" transform="translate(804.000000, 3810.000000)">
+                <g id="Group-9-Copy-11" transform="translate(214.000000, 141.000000)">
+                    <g id="icon" transform="translate(50.000000, 0.000000)">
+                        <path d="M54.5175616,7.52626566 C48.7625549,2.82250471 41.4101508,-6.76767677e-05 33.3976727,-6.76767677e-05 C14.9525953,-6.76767677e-05 9.02356903e-05,14.952663 9.02356903e-05,33.3977404 C9.02356903e-05,37.9124576 0.897935354,42.2169256 2.52150101,46.1453364" id="Stroke-1" stroke="#939393" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M19.2330832,63.6489172 C23.5337162,65.666136 28.3333525,66.7954357 33.3978306,66.7954357 C51.8429081,66.7954357 66.7954131,51.8427051 66.7954131,33.3976276 C66.7954131,31.7848902 66.6787835,30.1994492 66.4577061,28.6476209" id="Stroke-3" stroke="#939393" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M57.2176842,6.25723603 L58.7079266,11.2436603 L53.2062566,10.591933 C53.2062566,10.591933 56.0534182,9.3586367 57.2176842,6.25723603" id="Fill-5" fill="#3387FB"></path>
+                        <path d="M57.2176842,6.25723603 L58.7079266,11.2436603 L53.2062566,10.591933 C53.2062566,10.591933 56.0534182,9.3586367 57.2176842,6.25723603 L57.2176842,6.25723603 Z" id="Stroke-7" stroke="#3387FB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M18.205434,66.3915182 L15.4800906,61.9580131 L20.9637135,61.1691276 C20.9637135,61.1691276 18.5307337,63.0947572 18.205434,66.3915182" id="Fill-9" fill="#3387FB"></path>
+                        <path d="M18.205434,66.3915182 L15.4800906,61.9580131 L20.9637135,61.1691276 C20.9637135,61.1691276 18.5307337,63.0947572 18.205434,66.3915182 L18.205434,66.3915182 Z" id="Stroke-11" stroke="#3387FB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <text id="USCIS" fill="#2ECA9C" font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN" font-size="16" font-weight="normal">
+                            <tspan x="8.27657718" y="38.2753535">USCIS</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

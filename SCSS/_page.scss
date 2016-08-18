@@ -158,7 +158,6 @@
   font-size: 22px;
   color: $gray;
   text-decoration:underline;
-  border-bottom: 1.5px solid $gray;
   display: inline-block;
   line-height: 25px;
   margin: auto;
@@ -166,7 +165,6 @@
   margin-bottom: 4rem;
   &:hover {
     color: #7B7C7E;
-    border-color: #7B7C7E;
   }
 }
 
@@ -299,6 +297,13 @@
       background-repeat: no-repeat;
       background-size: 100% 100%;
       padding: 20px 60px;
+      
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+        }
+      }
 
       h3 {
         font-family: 'AvenirNextRegular', Helvetica, sans-serif;
@@ -441,7 +446,7 @@
   font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
 
   img {
-    height: 50px;
+    height: 67px;
   }
   h2 {
     font-size: 30px;
@@ -455,7 +460,8 @@
   h4 {
     font-size: 17px;
     color: $black;
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   p {
     font-size: 15px;
@@ -506,20 +512,21 @@
       transition: all 0.4s ease-in-out;
     }
     &:hover .overlay {
-      background-color: rgba(48, 152, 157, 0.4);
+      background: rgba(33,33,33,0.24);
     }
     img {
       display: block;
       position: relative;
     }
     h3 {
+      font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
       text-transform: uppercase;
       color: #fff;
       text-align: center;
       position: relative;
-      font-size: 17px;
+      font-size: 25px;
       padding: 10px;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0,0,0,0.36);
       -webkit-transform: translateY(45px);
       -ms-transform: translateY(45px);
       transform: translateY(45px);
