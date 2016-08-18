@@ -479,18 +479,20 @@
     font-size: 19px;
     color: #444444  ;
     letter-spacing: 7px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 
   .hovereffect {
     width:  371px;
     height: auto;
-    float: left;
+    margin-top: 20px;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
     border-radius:8px;
+    margin-left: auto;
+    margin-right: auto;
 
     .overlay {
       width: 100%;
@@ -600,6 +602,8 @@
       display: block;
       height: 35px;
       margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .number {
       width: 100%;
@@ -662,6 +666,12 @@
           color: #2C2E31;
           letter-spacing: 0.7px;
           padding: 20px 0 0 0;
+        }
+        span.date {
+          display: block;
+          font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
+          font-size: 10px;
+          color: $gray;
         }
       }
     }
@@ -737,5 +747,79 @@
 
   a.btn-radiusEmerald {
     padding: 7px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #getAnswer {
+    .left {
+      padding-top: 10rem;
+      padding-bottom: 2rem;
+    }
+    .right {
+      padding-top: 2rem;
+      padding-bottom: 10rem;
+    }
+  }
+  #howWeWork {
+    h2, h3 {
+      text-align: center;
+    }
+  }
+
+  .form-footer {
+    .input {
+      .col-md-6 {
+        padding-left: 15px !important;
+
+        &:first-child {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #textCarroussel .carousel-caption {
+    bottom: 40px;
+    left: 10%;
+    right: 10%;
+  }
+
+  #products {
+    .product {
+      h3 {
+        min-height: 73px;
+      }
+    }
+  }
+
+  #getAnswer {
+    .right {
+      .button-cont li{
+        padding: 0 5px;
+      }
+      .bulle {
+        background-size: 100% 100% ;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #getAnswer {
+    .right {
+      .button-cont li{
+        padding: 0 5px;
+      }
+    }
+  }
+
+  #icons {
+    h4 {
+      height: 36px;
+    }
   }
 }

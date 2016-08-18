@@ -1,7 +1,7 @@
-#headerProductE2 {
+#headerProductL1 {
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url('../images/bgE2.jpg');
+  background-image: url('../images/bgL1.jpg');
   h1 {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
     font-size: 31px;
@@ -23,7 +23,7 @@
   a {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
     font-size: 16px;
-    color: $colorE2;
+    color: $colorL1;
 
     img {
       margin-right: 15px;
@@ -31,7 +31,7 @@
   }
 }
 
-#detailsE2 {
+#detailsL1 {
   padding-top: 20px;
   padding-bottom: 150px;
   h2 {
@@ -89,7 +89,7 @@
       }
     }
     button {
-      background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+      background: $gradianL1Dark;
       font-family: 'AvenirNextRegular', Helvetica, sans-serif;
       font-size: 16px;
       color: white;
@@ -101,7 +101,7 @@
   }
 }
 
-#thingRememberE2 {
+#thingRememberL1 {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -136,19 +136,19 @@
   }
 }
 
-#blueDivider {
-  background-color: $colorE2;
+#L1Divider {
+  background: $gradianL1;
   text-transform: uppercase;
 }
 
-#ourExperienceE2 {
+#ourExperienceL1 {
   padding-top: 125px;
   padding-bottom: 50px;
 
   h2 {
     font-family: 'AvenirNextRegular', Helvetica, sans-serif;
     font-size: 19px;
-    color: $colorE2;
+    color: $colorL1;
     letter-spacing: 7px;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -191,7 +191,7 @@
       text-align: center;
 
       button {
-        background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
+        background: $gradianL1Dark;
         font-family: 'AvenirNextRegular', Helvetica, sans-serif;
         font-size: 16px;
         color: white;
@@ -206,7 +206,7 @@
 }
 
 @media (max-width: 767px) {
-  #thingRememberE2 img {
+  #thingRememberL1 img {
     width: 50%;
   }
 }

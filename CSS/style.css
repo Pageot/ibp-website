@@ -199,6 +199,28 @@ header .row-form .btn-reviews img {
   color: #D9D9D9;
   letter-spacing: 2.88pt; }
 
+@media (max-width: 767px) {
+  header .divider {
+    padding-left: 15px; }
+    header .divider .type-wrap {
+      font-size: 80pt; }
+  header .no-padding {
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+  header form .input div {
+    padding-left: 15px;
+    padding-right: 15px; }
+    header form .input div:first-child {
+      padding-left: 15px;
+      padding-right: 15px; }
+
+  #textCarroussel .carousel-caption {
+    left: 10px;
+    right: 10px; }
+    #textCarroussel .carousel-caption p {
+      font-size: 25pt !important; }
+      #textCarroussel .carousel-caption p:last-child {
+        font-size: 17px !important; } }
 /* Title */
 .bigTitle {
   font-family: "AvenirNextRegular", Helvetica, sans-serif;
@@ -405,9 +427,6 @@ footer {
 
 .form-footer > div > div > input {
   font-size: 12px; }
-
-.form-footer {
-  margin-left: 5%; }
 
 /* Carousel Bootstrap */
 /* CUSTOMIZE THE CAROUSEL
@@ -816,16 +835,18 @@ footer {
     font-size: 19px;
     color: #444444;
     letter-spacing: 7px;
-    margin-bottom: 90px; }
+    margin-bottom: 70px; }
   #sample .hovereffect {
     width: 371px;
     height: auto;
-    float: left;
+    margin-top: 20px;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
-    border-radius: 8px; }
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto; }
     #sample .hovereffect .overlay {
       width: 100%;
       height: 100%;
@@ -917,7 +938,9 @@ footer {
   #howWeWork .left img {
     display: block;
     height: 35px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto; }
   #howWeWork .left .number {
     width: 100%;
     text-align: center;
@@ -967,6 +990,11 @@ footer {
         color: #2C2E31;
         letter-spacing: 0.7px;
         padding: 20px 0 0 0; }
+      #carouselRow #wrapper #carousel > div span.date {
+        display: block;
+        font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
+        font-size: 10px;
+        color: #939393; }
     #carouselRow #wrapper #prev, #carouselRow #wrapper #next {
       background: center center no-repeat transparent;
       display: block;
@@ -1023,6 +1051,41 @@ footer {
   #logo a.btn-radiusEmerald {
     padding: 7px 30px; }
 
+@media (max-width: 767px) {
+  #getAnswer .left {
+    padding-top: 10rem;
+    padding-bottom: 2rem; }
+  #getAnswer .right {
+    padding-top: 2rem;
+    padding-bottom: 10rem; }
+
+  #howWeWork h2, #howWeWork h3 {
+    text-align: center; }
+
+  .form-footer .input .col-md-6 {
+    padding-left: 15px !important; }
+    .form-footer .input .col-md-6:first-child {
+      padding-left: 15px !important;
+      padding-right: 15px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #textCarroussel .carousel-caption {
+    bottom: 40px;
+    left: 10%;
+    right: 10%; }
+
+  #products .product h3 {
+    min-height: 73px; }
+
+  #getAnswer .right .button-cont li {
+    padding: 0 5px; }
+  #getAnswer .right .bulle {
+    background-size: 100% 100%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #getAnswer .right .button-cont li {
+    padding: 0 5px; }
+
+  #icons h4 {
+    height: 36px; } }
 #headerAbout {
   background-image: url(../images/pageAbout-header.jpeg);
   background-repeat: no-repeat;
@@ -1048,12 +1111,6 @@ footer {
   color: #eb4e4e;
   padding-bottom: 3rem; }
 
-.textAbout1 > div > ul {
-  margin-left: 5rem; }
-
-.textAbout1 > div > img {
-  margin-left: 7rem; }
-
 .textAbout1 > div > ul > li {
   color: #eb4e4e;
   list-style: none;
@@ -1071,36 +1128,36 @@ footer {
 #redDivider {
   background: linear-gradient(-90deg, #D83543 0%, #F35352 100%); }
 
-#headerProduct {
+#headerProductE2 {
   padding-top: 200px;
   padding-bottom: 150px;
   background-image: url("../images/bgE2.jpg"); }
-  #headerProduct h1 {
+  #headerProductE2 h1 {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
     font-size: 31px;
     color: #2c2e31; }
-  #headerProduct h2 {
+  #headerProductE2 h2 {
     font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
     font-size: 16px;
     color: #4B4B4B;
     margin-bottom: 70px; }
-  #headerProduct p {
+  #headerProductE2 p {
     font-family: 'ProximaNovaLight', Helvetica, sans-serif;
     font-size: 15px;
     color: #4B4B4B;
     line-height: 22px;
     margin-bottom: 70px; }
-  #headerProduct a {
+  #headerProductE2 a {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
     font-size: 16px;
     color: #3387FB; }
-    #headerProduct a img {
+    #headerProductE2 a img {
       margin-right: 15px; }
 
-#details {
+#detailsE2 {
   padding-top: 20px;
   padding-bottom: 150px; }
-  #details h2 {
+  #detailsE2 h2 {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -1108,18 +1165,26 @@ footer {
     font-size: 19px;
     color: #444444;
     letter-spacing: 7px;
-    margin-bottom: 90px; }
-  #details .left img {
-    width: 100%; }
-  #details .right {
+    margin-bottom: 50px; }
+  #detailsE2 #underline {
+    height: 50px;
+    border-top: solid 1px #e6e6e6; }
+  #detailsE2 #card {
+    border: 1px solid #E6E6E6;
+    border-radius: 4px; }
+  #detailsE2 .left {
+    padding: 0; }
+    #detailsE2 .left img {
+      width: 100%; }
+  #detailsE2 .right {
     padding-top: 70px; }
-    #details .right p {
+    #detailsE2 .right p {
       font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
       font-size: 14px;
       color: #2c2e31; }
-    #details .right ul {
+    #detailsE2 .right ul {
       padding-left: 15px; }
-    #details .right li {
+    #detailsE2 .right li {
       font-family: 'AvenirNextRegular', Helvetica, sans-serif;
       font-size: 13px;
       color: #2c2e31;
@@ -1127,12 +1192,12 @@ footer {
       text-transform: uppercase;
       line-height: 2;
       padding-left: 10px; }
-      #details .right li.light {
+      #detailsE2 .right li.light {
         font-family: 'AvenirNextRegular', Helvetica, sans-serif;
         font-size: 13px;
         color: #4B4B4B;
         letter-spacing: 2.30px; }
-    #details .right button {
+    #detailsE2 .right button {
       background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
       font-family: 'AvenirNextRegular', Helvetica, sans-serif;
       font-size: 16px;
@@ -1142,11 +1207,11 @@ footer {
       padding: 7px 15px;
       margin-top: 20px; }
 
-#thingRemember {
+#thingRememberE2 {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center; }
-  #thingRemember h2 {
+  #thingRememberE2 h2 {
     font-family: 'AvenirNextRegular', Helvetica, sans-serif;
     font-size: 19px;
     color: #444444;
@@ -1154,16 +1219,16 @@ footer {
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 80px; }
-  #thingRemember img {
+  #thingRememberE2 img {
     width: 70%; }
-  #thingRemember h3 {
+  #thingRememberE2 h3 {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
     font-size: 14px;
     color: #2c2e31;
     text-transform: uppercase;
     text-align: left;
     margin-top: 50px; }
-  #thingRemember p {
+  #thingRememberE2 p {
     font-family: 'ProximaNovaLight', Helvetica, sans-serif;
     font-size: 15px;
     color: #4B4B4B;
@@ -1175,41 +1240,41 @@ footer {
   background-color: #3387FB;
   text-transform: uppercase; }
 
-#ourExperience {
+#ourExperienceE2 {
   padding-top: 125px;
   padding-bottom: 50px; }
-  #ourExperience h2 {
+  #ourExperienceE2 h2 {
     font-family: 'AvenirNextRegular', Helvetica, sans-serif;
     font-size: 19px;
     color: #3387FB;
     letter-spacing: 7px;
     text-transform: uppercase;
     margin-bottom: 50px; }
-  #ourExperience p, #ourExperience ul {
+  #ourExperienceE2 p, #ourExperienceE2 ul {
     font-family: 'ProximaNovaLight', Helvetica, sans-serif;
     font-size: 15px;
     color: #4B4B4B;
     line-height: 22px;
     margin-bottom: 50px; }
-  #ourExperience ul li {
+  #ourExperienceE2 ul li {
     list-style: none; }
-  #ourExperience .seperateur {
+  #ourExperienceE2 .seperateur {
     border-top: solid 1px #e6e6e6;
     padding-top: 20px; }
-    #ourExperience .seperateur .left h3 {
+    #ourExperienceE2 .seperateur .left h3 {
       font-family: 'AvenirNextRegular', Helvetica, sans-serif;
       font-size: 22px;
       color: #2c2e31; }
-    #ourExperience .seperateur .left h4 {
+    #ourExperienceE2 .seperateur .left h4 {
       margin-top: 15px;
       font-family: 'AvenirNextRegular', Helvetica, sans-serif;
       font-size: 14px;
       color: #939393;
       letter-spacing: 1px;
       line-height: 19px; }
-    #ourExperience .seperateur .right {
+    #ourExperienceE2 .seperateur .right {
       text-align: center; }
-      #ourExperience .seperateur .right button {
+      #ourExperienceE2 .seperateur .right button {
         background: linear-gradient(-90deg, #1E579A 0%, #2367B5 100%);
         font-family: 'AvenirNextRegular', Helvetica, sans-serif;
         font-size: 16px;
@@ -1218,5 +1283,327 @@ footer {
         border-radius: 20px;
         padding: 7px 15px;
         margin-top: 30px; }
+
+@media (max-width: 767px) {
+  #thingRememberE2 img {
+    width: 50%; } }
+#headerProductEB5 {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url("../images/bgEB5.jpg"); }
+  #headerProductEB5 h1 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 31px;
+    color: #2c2e31; }
+  #headerProductEB5 h2 {
+    font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-bottom: 70px; }
+  #headerProductEB5 p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 70px; }
+  #headerProductEB5 a {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2eca9c; }
+    #headerProductEB5 a img {
+      margin-right: 15px; }
+
+#detailsEB5 {
+  padding-top: 20px;
+  padding-bottom: 150px; }
+  #detailsEB5 h2 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    margin-bottom: 50px; }
+  #detailsEB5 #underline {
+    height: 50px;
+    border-top: solid 1px #e6e6e6; }
+  #detailsEB5 #card {
+    border: 1px solid #E6E6E6;
+    border-radius: 4px; }
+  #detailsEB5 .left {
+    padding: 0; }
+    #detailsEB5 .left img {
+      width: 100%; }
+  #detailsEB5 .right {
+    padding-top: 70px; }
+    #detailsEB5 .right p {
+      font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #2c2e31; }
+    #detailsEB5 .right ul {
+      padding-left: 15px; }
+    #detailsEB5 .right li {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 13px;
+      color: #2c2e31;
+      letter-spacing: 2.30px;
+      text-transform: uppercase;
+      line-height: 2;
+      padding-left: 10px; }
+      #detailsEB5 .right li.light {
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 13px;
+        color: #4B4B4B;
+        letter-spacing: 2.30px; }
+    #detailsEB5 .right button {
+      background: linear-gradient(-90deg, #1D9571 0%, #22B288 100%);
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 7px 15px;
+      margin-top: 20px; }
+
+#thingRememberEB5 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center; }
+  #thingRememberEB5 h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 80px; }
+  #thingRememberEB5 img {
+    width: 70%; }
+  #thingRememberEB5 h3 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2c2e31;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 50px; }
+  #thingRememberEB5 p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 70px; }
+
+#greenDivider {
+  background: linear-gradient(-90deg, #2ECA9C 0%, #20C4C6 100%);
+  text-transform: uppercase; }
+
+#ourExperienceEB5 {
+  padding-top: 125px;
+  padding-bottom: 50px; }
+  #ourExperienceEB5 h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #2eca9c;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  #ourExperienceEB5 p, #ourExperienceEB5 ul {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 50px; }
+  #ourExperienceEB5 ul li {
+    list-style: none; }
+  #ourExperienceEB5 .seperateur {
+    border-top: solid 1px #e6e6e6;
+    padding-top: 20px; }
+    #ourExperienceEB5 .seperateur .left h3 {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 22px;
+      color: #2c2e31; }
+    #ourExperienceEB5 .seperateur .left h4 {
+      margin-top: 15px;
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #939393;
+      letter-spacing: 1px;
+      line-height: 19px; }
+    #ourExperienceEB5 .seperateur .right {
+      text-align: center; }
+      #ourExperienceEB5 .seperateur .right button {
+        background: linear-gradient(-90deg, #1D9571 0%, #22B288 100%);
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 7px 15px;
+        margin-top: 30px; }
+
+@media (max-width: 767px) {
+  #thingRememberEB5 img {
+    width: 50%; } }
+#headerProductL1 {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url("../images/bgL1.jpg"); }
+  #headerProductL1 h1 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 31px;
+    color: #2c2e31; }
+  #headerProductL1 h2 {
+    font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-bottom: 70px; }
+  #headerProductL1 p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 70px; }
+  #headerProductL1 a {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4dce46; }
+    #headerProductL1 a img {
+      margin-right: 15px; }
+
+#detailsL1 {
+  padding-top: 20px;
+  padding-bottom: 150px; }
+  #detailsL1 h2 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    margin-bottom: 50px; }
+  #detailsL1 #underline {
+    height: 50px;
+    border-top: solid 1px #e6e6e6; }
+  #detailsL1 #card {
+    border: 1px solid #E6E6E6;
+    border-radius: 4px; }
+  #detailsL1 .left {
+    padding: 0; }
+    #detailsL1 .left img {
+      width: 100%; }
+  #detailsL1 .right {
+    padding-top: 70px; }
+    #detailsL1 .right p {
+      font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #2c2e31; }
+    #detailsL1 .right ul {
+      padding-left: 15px; }
+    #detailsL1 .right li {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 13px;
+      color: #2c2e31;
+      letter-spacing: 2.30px;
+      text-transform: uppercase;
+      line-height: 2;
+      padding-left: 10px; }
+      #detailsL1 .right li.light {
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 13px;
+        color: #4B4B4B;
+        letter-spacing: 2.30px; }
+    #detailsL1 .right button {
+      background: linear-gradient(-90deg, #23921D 0%, #29B122 100%);
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 7px 15px;
+      margin-top: 20px; }
+
+#thingRememberL1 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center; }
+  #thingRememberL1 h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444444;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 80px; }
+  #thingRememberL1 img {
+    width: 70%; }
+  #thingRememberL1 h3 {
+    font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2c2e31;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 50px; }
+  #thingRememberL1 p {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 70px; }
+
+#L1Divider {
+  background: linear-gradient(-90deg, #4DCE46 0%, #78D858 100%);
+  text-transform: uppercase; }
+
+#ourExperienceL1 {
+  padding-top: 125px;
+  padding-bottom: 50px; }
+  #ourExperienceL1 h2 {
+    font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+    font-size: 19px;
+    color: #4dce46;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  #ourExperienceL1 p, #ourExperienceL1 ul {
+    font-family: 'ProximaNovaLight', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4B4B4B;
+    line-height: 22px;
+    margin-bottom: 50px; }
+  #ourExperienceL1 ul li {
+    list-style: none; }
+  #ourExperienceL1 .seperateur {
+    border-top: solid 1px #e6e6e6;
+    padding-top: 20px; }
+    #ourExperienceL1 .seperateur .left h3 {
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 22px;
+      color: #2c2e31; }
+    #ourExperienceL1 .seperateur .left h4 {
+      margin-top: 15px;
+      font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+      font-size: 14px;
+      color: #939393;
+      letter-spacing: 1px;
+      line-height: 19px; }
+    #ourExperienceL1 .seperateur .right {
+      text-align: center; }
+      #ourExperienceL1 .seperateur .right button {
+        background: linear-gradient(-90deg, #23921D 0%, #29B122 100%);
+        font-family: 'AvenirNextRegular', Helvetica, sans-serif;
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 7px 15px;
+        margin-top: 30px; }
+
+@media (max-width: 767px) {
+  #thingRememberL1 img {
+    width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
