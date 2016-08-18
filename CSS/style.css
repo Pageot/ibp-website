@@ -60,6 +60,9 @@ header .divider {
   margin-bottom: 2.7rem;
   padding-left: 0; }
 
+a#btn-reviews {
+  float: left; }
+
 /* code for animated blinking cursor */
 header .divider .typed-cursor {
   opacity: 1;
@@ -252,6 +255,9 @@ header .row-form .btn-reviews img {
 .no-padding {
   padding: 0px; }
 
+.padding-top {
+  padding-top: 3rem; }
+
 /* Btn */
 .btn-radiusRed {
   border-radius: 50px;
@@ -277,7 +283,8 @@ header .row-form .btn-reviews img {
   font-weight: 300;
   font-size: 14px; }
   .btn-radiusEmerald:hover {
-    background-color: #0fb48c; }
+    background-color: #0fb48c;
+    color: white; }
 
 /* form */
 .form {
@@ -1073,6 +1080,8 @@ footer {
     line-height: 19px; }
   #logo a.btn-radiusEmerald {
     padding: 7px 30px; }
+    #logo a.btn-radiusEmerald:hover {
+      text-decoration: none; }
 
 @media (max-width: 767px) {
   #getAnswer .left {
@@ -1110,7 +1119,7 @@ footer {
   #icons h4 {
     height: 36px; } }
 #headerAbout {
-  background-image: url(../images/pageAbout-header.jpeg);
+  background-image: url(../images/pageAbout-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh; }

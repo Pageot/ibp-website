@@ -782,6 +782,9 @@
 
   a.btn-radiusEmerald {
     padding: 7px 30px;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }
 
