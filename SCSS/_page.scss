@@ -624,6 +624,10 @@
   .right {
     padding-top: 100px;
     text-align: center;
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -734,6 +738,30 @@
     margin: 0 auto;
     background-color: #E6E6E6;
     margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    > div {
+      padding: 50px 0;
+    }
+    .all {
+      border: solid 1px #E6E6E6;
+    }
+    .top {
+      border-top: solid 1px #E6E6E6;
+    }
+    .bottom {
+      border-bottom: solid 1px #E6E6E6;
+    }
+    .left {
+      border-left: solid 1px #E6E6E6;
+    }
+    .right {
+      border-right: solid 1px #E6E6E6;
+    }
   }
   h3, h4 {
     margin: 0;
