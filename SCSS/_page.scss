@@ -4,19 +4,23 @@
 -------------------------------------------------- */
 
 /* Carousel base class */
-#textCarroussel .carousel {
-  height: 450px;
-  background: linear-gradient(-90deg, #8697A5 1%, #6E7982 99%);
+#textCarroussel {
+  padding: 140px 0 120px 0;
+  background: linear-gradient(-90deg, #6E7982 1%, #8697A5 99%);
 }
+#textCarroussel .carousel {
+  background-color: transparent;
+}
+
 /* Since positioning the image, we need to help out the caption */
 #textCarroussel .carousel-caption {
   z-index: 10;
-  bottom: 90px;
+  position: static;
+  text-shadow: none;
 }
 
 /* Declare heights because of positioning of img element */
 #textCarroussel .carousel .item {
-  height: 450px;
   background: transparent;
 }
 
@@ -74,7 +78,7 @@
     /* Products */
 .product {
   display: inline-block;
-  padding: 0rem 1.4rem 0rem 1rem;
+  padding: 0px 33px 0px 21px
 }
 
 #E2>h2 {
@@ -330,7 +334,7 @@
     button {
       background: #EB4E4E;
       border-radius: 5px;
-      font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
+      font-family: 'AvenirNextMedium', Helvetica, sans-serif;
       font-size: 17px;
       color: #FFFFFF;
       letter-spacing: 1.8px;
@@ -388,6 +392,7 @@
     font-size: 19px;
     color: #444444  ;
     letter-spacing: 7px;
+    text-transform: uppercase;
   }
   h3 {
     font-family: 'AvenirNextRegular', Helvetica, sans-serif;
@@ -449,6 +454,7 @@
     height: 67px;
   }
   h2 {
+    margin-top: 90px;
     font-size: 30px;
     color: $black;
   }
@@ -864,18 +870,6 @@
         padding: 0 5px;
         li {
           padding: 0 5px;
-        }
-      }
-    }
-  }
-}
-@media (min-width: 1200px) and (max-width: 1600px) {
-  #getAnswer {
-    .right {
-      .button-cont {
-        padding: 0 10px;
-        li {
-          padding: 0 10px;
         }
       }
     }
