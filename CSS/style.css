@@ -669,7 +669,7 @@ footer {
   #getAnswer .right .button-cont {
     list-style: none;
     margin-bottom: 50px;
-    padding: 0 20px; }
+    padding: 0 50px; }
     #getAnswer .right .button-cont li {
       list-style: none;
       display: inline-block;
@@ -817,7 +817,8 @@ footer {
     font-size: 17px;
     color: #2c2e31;
     margin-top: 30px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    height: 36px; }
   #icons p {
     font-size: 15px;
     color: #939393;
@@ -1103,16 +1104,22 @@ footer {
   #products .product h3 {
     min-height: 73px; }
 
-  #getAnswer .right .button-cont li {
-    padding: 0 5px; }
+  #getAnswer .right .button-cont {
+    padding: 0 10px; }
+    #getAnswer .right .button-cont li {
+      padding: 0 5px; }
   #getAnswer .right .bulle {
     background-size: 100% 100%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
-  #getAnswer .right .button-cont li {
+  #getAnswer .right .button-cont {
     padding: 0 5px; }
-
-  #icons h4 {
-    height: 36px; } }
+    #getAnswer .right .button-cont li {
+      padding: 0 5px; } }
+@media (min-width: 1200px) and (max-width: 1600px) {
+  #getAnswer .right .button-cont {
+    padding: 0 10px; }
+    #getAnswer .right .button-cont li {
+      padding: 0 10px; } }
 #headerAbout {
   background-image: url(../images/pageAbout-header.jpeg);
   background-repeat: no-repeat;
