@@ -1509,6 +1509,9 @@ footer {
     #detailsEB5 .right button {
       font-size: 14px;
       margin-top: 10px; } }
+@media (min-width: 1200px) and (max-width: 1700px) {
+  #detailsEB5 .right {
+    padding-top: 35px; } }
 #headerProductL1 {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -1682,5 +1685,8 @@ footer {
     #detailsL1 .right button {
       font-size: 14px;
       margin-top: 10px; } }
+@media (min-width: 1200px) and (max-width: 1700px) {
+  #detailsL1 .right {
+    padding-top: 35px; } }
 
 /*# sourceMappingURL=style.css.map */
