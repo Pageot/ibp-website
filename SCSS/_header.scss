@@ -1,12 +1,39 @@
 /* Navbar */
+html {
+  padding-top: 97px;
+}
 
 #navbar{
   padding-top: 24px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
   padding-bottom: 24px;
   background: #FFFFFF;
   border: none;
   margin-bottom: 0;
   box-shadow: 0px 1px 2px 0px rgba(114,114,116,0.69);
+  border: none;
+  border-radius:0px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    // color: #555;
+    background-color: white;
+}
+@media (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+      left: 0;
+      right: auto;
+  }
+  .dropdown-menu>li>a {
+    margin-right: 0;
+    &:hover {
+      background-color: white;
+      color: #cf1e34;
+    }
+  }
 }
 
 #navbar img {
@@ -196,6 +223,13 @@ header .row-form .btn-reviews img {
       }
     }
   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  nav .navbar-nav .listNavbar > a {
+      padding-right: 25px;
+  }
 
-
+  header {
+    padding-top: 100px;
+  }
 }

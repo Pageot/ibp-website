@@ -22,8 +22,12 @@
   }
   a {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
-    font-size: 16px;
-    color: $colorEB5;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1D9571;
+    &:hover {
+      color: $colorEB5;
+    }
 
     img {
       margin-right: 15px;

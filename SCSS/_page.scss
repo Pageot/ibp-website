@@ -496,7 +496,7 @@
   }
 
   .hovereffect {
-    width:  371px;
+    width:  100%;
     height: auto;
     margin-top: 20px;
     overflow: hidden;
@@ -539,7 +539,7 @@
       transform: translateY(45px);
       -webkit-transition: all 0.4s ease-in-out;
       transition: all 0.4s ease-in-out;
-      margin-top: 60px;
+      margin-top: 14%;
     }
     &:hover h3 {
       -webkit-transform: translateY(5px);
@@ -648,6 +648,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
+  height: 550px;
 
   #wrapper {
     width: 100%;
@@ -670,20 +671,25 @@
         }
         img {
           height: 55px;
+          float: left;
         }
         h3 {
           font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
           font-size: 22px;
+          padding-top: 15px;
+          padding-left: 15px;
           color: $emerald;
-          margin: 0 0 20px 0;
-          display: inline-block;
+          margin: 0 0 30px 0;
+          float: left;
         }
         p {
+          clear: both;
           font-family: 'Caslon', serif;
           font-size: 17px;
           color: #2C2E31;
           letter-spacing: 0.7px;
           padding: 20px 0 0 0;
+          margin-bottom: 20px;
         }
         span.date {
           display: block;
@@ -750,7 +756,7 @@
   .logo {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     > div {
       padding: 50px 0;
     }
@@ -788,7 +794,9 @@
   }
 
   a.btn-radiusEmerald {
-    padding: 7px 30px;
+    margin-top: 12px;
+    padding: 10px 40px;
+    font-size: 20px;
     &:hover{
       text-decoration: none;
     }
@@ -838,6 +846,14 @@
     bottom: 40px;
     left: 10%;
     right: 10%;
+
+    p {
+      font-size: 25px;
+
+      &:last-child {
+        font-size: 13px
+      }
+    }
   }
 
   #products {

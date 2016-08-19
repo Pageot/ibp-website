@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="29px" height="18px" viewBox="0 0 29 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
     <title>Shape</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Page-produit-L1" transform="translate(-380.000000, -607.000000)" stroke="#4DCE46" fill="#4DCE46">
+        <g id="Page-produit-L1" transform="translate(-380.000000, -607.000000)" stroke="#23921D" fill="#23921D">
             <path d="M393.631551,602.825451 L393.631551,626.454256 L387.669849,620.492554 C387.390176,620.212523 386.935527,620.212523 386.655854,620.492554 C386.375822,620.772586 386.375822,621.226517 386.655854,621.506549 L393.938833,628.789528 C394.078669,628.930082 394.26225,629 394.44583,629 C394.629411,629 394.812991,628.930082 394.952828,628.789886 L402.235806,621.506908 C402.515838,621.226876 402.515838,620.772945 402.235806,620.492913 C401.956133,620.212881 401.501485,620.212881 401.221811,620.492913 L395.065773,626.648593 L395.065773,602.825451 C395.065773,602.429605 394.744507,602.10834 394.348662,602.10834 C393.952816,602.10834 393.631551,602.429605 393.631551,602.825451 Z" id="Shape" transform="translate(394.445830, 615.554170) rotate(-90.000000) translate(-394.445830, -615.554170) "></path>
         </g>
     </g>
