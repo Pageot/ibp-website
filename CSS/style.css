@@ -47,7 +47,7 @@ nav .navbar-nav .listNavbar > a {
   font-family: Helvetica, sans-serif;
   font-weight: 300;
   font-size: 11px;
-  color: #939393;
+  color: #6E7982;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   padding-right: 59px; }
@@ -1333,6 +1333,9 @@ footer {
     #detailsE2 .right button {
       font-size: 14px;
       margin-top: 10px; } }
+@media (min-width: 1200px) and (max-width: 1700px) {
+  #detailsE2 .right {
+    padding-top: 35px; } }
 #headerProductEB5 {
   padding-top: 200px;
   padding-bottom: 150px;
