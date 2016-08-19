@@ -1,13 +1,35 @@
 /* Colors */
 /* Navbar */
+html {
+  padding-top: 97px; }
+
 #navbar {
   padding-top: 24px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
   padding-bottom: 24px;
   background: #FFFFFF;
   border: none;
   margin-bottom: 0;
-  box-shadow: 0px 1px 2px 0px rgba(114, 114, 116, 0.69); }
+  box-shadow: 0px 1px 2px 0px rgba(114, 114, 116, 0.69);
+  border: none;
+  border-radius: 0px; }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: white; }
+
+@media (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+    left: 0;
+    right: auto; }
+
+  .dropdown-menu > li > a {
+    margin-right: 0; }
+    .dropdown-menu > li > a:hover {
+      background-color: white;
+      color: #cf1e34; } }
 #navbar img {
   width: 200px; }
 
@@ -170,6 +192,12 @@ header .row-form .btn-reviews img {
     header form .input div:first-child {
       padding-left: 15px;
       padding-right: 15px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  nav .navbar-nav .listNavbar > a {
+    padding-right: 25px; }
+
+  header {
+    padding-top: 100px; } }
 /* Title */
 .bigTitle {
   font-family: "AvenirNextRegular", Helvetica, sans-serif;
@@ -365,6 +393,8 @@ footer {
   font-size: 11px;
   color: #9FA3A9;
   list-style: none; }
+  .footerLi > li a {
+    color: #9FA3A9; }
 
 .footerP {
   font-family: 'AvenirNextRegular', Helvetica, sans-serif;
@@ -799,7 +829,7 @@ footer {
     letter-spacing: 7px;
     margin-bottom: 70px; }
   #sample .hovereffect {
-    width: 371px;
+    width: 100%;
     height: auto;
     margin-top: 20px;
     overflow: hidden;
@@ -838,7 +868,7 @@ footer {
       transform: translateY(45px);
       -webkit-transition: all 0.4s ease-in-out;
       transition: all 0.4s ease-in-out;
-      margin-top: 60px; }
+      margin-top: 14%; }
     #sample .hovereffect:hover h3 {
       -webkit-transform: translateY(5px);
       -ms-transform: translateY(5px);
@@ -925,7 +955,8 @@ footer {
   background-color: #f8f9fb;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative; }
+  position: relative;
+  height: 550px; }
   #carouselRow #wrapper {
     width: 100%;
     overflow: hidden; }
@@ -942,19 +973,24 @@ footer {
       #carouselRow #wrapper #carousel > div.selected {
         opacity: 1; }
       #carouselRow #wrapper #carousel > div img {
-        height: 55px; }
+        height: 55px;
+        float: left; }
       #carouselRow #wrapper #carousel > div h3 {
         font-family: 'AvenirNextDemiBold', Helvetica, sans-serif;
         font-size: 22px;
+        padding-top: 15px;
+        padding-left: 15px;
         color: #00c595;
-        margin: 0 0 20px 0;
-        display: inline-block; }
+        margin: 0 0 30px 0;
+        float: left; }
       #carouselRow #wrapper #carousel > div p {
+        clear: both;
         font-family: 'Caslon', serif;
         font-size: 17px;
         color: #2C2E31;
         letter-spacing: 0.7px;
-        padding: 20px 0 0 0; }
+        padding: 20px 0 0 0;
+        margin-bottom: 20px; }
       #carouselRow #wrapper #carousel > div span.date {
         display: block;
         font-family: 'ProximaNovaRegular', Helvetica, sans-serif;
@@ -1004,7 +1040,7 @@ footer {
   #logo .logo {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 70px; }
+    margin-bottom: 100px; }
     #logo .logo > div {
       padding: 50px 0; }
     #logo .logo .all {
@@ -1031,7 +1067,9 @@ footer {
     letter-spacing: 1px;
     line-height: 19px; }
   #logo a.btn-radiusEmerald {
-    padding: 7px 30px; }
+    margin-top: 12px;
+    padding: 10px 40px;
+    font-size: 20px; }
     #logo a.btn-radiusEmerald:hover {
       text-decoration: none; }
 
@@ -1060,6 +1098,10 @@ footer {
     bottom: 40px;
     left: 10%;
     right: 10%; }
+    #textCarroussel .carousel-caption p {
+      font-size: 25px; }
+      #textCarroussel .carousel-caption p:last-child {
+        font-size: 13px; }
 
   #products .product h3 {
     min-height: 73px; }
@@ -1079,6 +1121,7 @@ footer {
   background-image: url(../images/pageAbout-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 80vh; }
 
 /* First divider */
@@ -1138,8 +1181,11 @@ footer {
     margin-bottom: 70px; }
   #headerProductE2 a {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
-    font-size: 16px;
-    color: #3387FB; }
+    font-size: 20px;
+    color: #17509F;
+    text-decoration: none; }
+    #headerProductE2 a:hover {
+      color: #3387FB; }
     #headerProductE2 a img {
       margin-right: 15px; }
 
@@ -1308,8 +1354,11 @@ footer {
     margin-bottom: 70px; }
   #headerProductEB5 a {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
-    font-size: 16px;
-    color: #2eca9c; }
+    font-size: 20px;
+    text-decoration: none;
+    color: #1D9571; }
+    #headerProductEB5 a:hover {
+      color: #2eca9c; }
     #headerProductEB5 a img {
       margin-right: 15px; }
 
@@ -1478,8 +1527,11 @@ footer {
     margin-bottom: 70px; }
   #headerProductL1 a {
     font-family: 'ProximaNovaSemiBold', Helvetica, sans-serif;
-    font-size: 16px;
-    color: #4dce46; }
+    font-size: 20px;
+    text-decoration: none;
+    color: #23921D; }
+    #headerProductL1 a:hover {
+      color: #4dce46; }
     #headerProductL1 a img {
       margin-right: 15px; }
 
